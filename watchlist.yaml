@@ -2,6 +2,8 @@
 #
 # feeds: mydealz-Quellen. Gruppen-Slugs findest du in der URL der Gruppe auf
 # mydealz.de (z.B. mydealz.de/gruppe/ssd -> "ssd"). "hot" ist die Startseite.
+min_temp: 20        # Treffer unter 20° (Community-Votes) werden verworfen; 0 = aus
+
 feeds:
   - hot
   - ssd

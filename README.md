@@ -64,3 +64,19 @@ dann Actions → „Deal-Sniper" → **Run workflow**.
   sich ~3000 IDs und wird automatisch committet).
 - Der Workflow committet bei jedem Lauf mit Änderungen → Repo bleibt aktiv,
   GitHub pausiert den Cron nicht.
+
+---
+
+## Neu in v2
+
+- **Temperatur-Filter:** `min_temp: 20` (global oder pro Regel) verwirft Treffer
+  mit weniger Community-Votes – killt Fehlalarme. Wird nur für tatsächliche
+  Treffer nachgeladen; ist die Seite nicht lesbar, wird der Treffer trotzdem
+  gemeldet (fail-open).
+- **Preis-Gedächtnis:** Jeder Treffer-Preis wird pro Regel geloggt
+  (`state/prices.json`, 60 Tage). Der Push zeigt „Bestpreis 30 T: X €" bzw.
+  „🏆 neuer Bestpreis!", das Dashboard den Bestpreis pro Regel.
+- **Ruhezeiten:** Zwischen 23 und 7 Uhr kein Push – Treffer sammeln sich in
+  `state/pending.json` und kommen morgens gebündelt („Über Nacht aufgelaufen").
+- **Fehler-Alarm:** Schlägt der Workflow fehl, bekommst du eine
+  Telegram-Nachricht mit Link zum Log.
