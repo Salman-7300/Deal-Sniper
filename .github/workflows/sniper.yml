@@ -1,0 +1,42 @@
+name: Deal-Sniper
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # alle 2 Stunden (UTC, Minute 17 entlastet GitHubs Cron-Spitzen)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sniper
+  cancel-in-progress: false
+
+jobs:
+  snipe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencies installieren
+        run: pip install -r requirements.txt
+
+      - name: Deals prüfen
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python sniper.py
+
+      - name: State + Dashboard committen
+        run: |
+          git config user.name "sniper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/ docs/
+          git diff --cached --quiet || git commit -m "Sniper-Lauf $(date -u '+%F %H:%M')"
+          git push
