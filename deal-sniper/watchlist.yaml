@@ -1,0 +1,43 @@
+# Deal-Sniper Konfiguration
+#
+# feeds: mydealz-Quellen. Gruppen-Slugs findest du in der URL der Gruppe auf
+# mydealz.de (z.B. mydealz.de/gruppe/ssd -> "ssd"). "hot" ist die Startseite.
+feeds:
+  - hot
+  - ssd
+  - monitor
+  - smartphone
+  - nas
+  - mini-pc
+
+# rules: Deine Schnäppchen-Regeln. Ein Deal matcht, wenn:
+#   - ALLE Begriffe aus "all" im Titel/Text vorkommen (case-insensitive)
+#   - KEINER der Begriffe aus "none" vorkommt (optional)
+#   - der erkannte Preis <= max_price ist (optional; ohne max_price zählt nur der Text)
+#
+# Beispiele – an deine Wunschliste anpassen:
+rules:
+  - name: "2TB NVMe SSD"
+    all: ["2tb", "nvme"]
+    none: ["extern", "gehäuse"]
+    max_price: 95
+
+  - name: "Mini-PC (Ryzen oder N100)"
+    all: ["mini-pc"]
+    none: []
+    max_price: 250
+
+  - name: "27\" WQHD Monitor 144Hz+"
+    all: ["27", "wqhd"]
+    none: ["fullhd", "full hd"]
+    max_price: 200
+
+  - name: "NAS-Festplatte ab 8TB"
+    all: ["8tb"]
+    none: ["extern", "ssd"]
+    max_price: 160
+
+  - name: "Raspberry Pi 5"
+    all: ["raspberry pi 5"]
+    none: []
+    max_price: 80

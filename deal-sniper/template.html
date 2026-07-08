@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Deal-Sniper</title>
+<style>
+  :root{
+    --bg:#171310; --panel:#211b16; --border:#372c22;
+    --text:#ede4d8; --muted:#a08d78; --accent:#d29a5b; --accent-dim:#8a6236;
+    --hit:#7fbf7f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:16px/1.6 "Instrument Sans",system-ui,-apple-system,sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:32px 20px 80px}
+  header{border-bottom:1px solid var(--border);padding-bottom:18px;margin-bottom:28px}
+  h1{font-size:1.5rem;margin:0}
+  h1 span{color:var(--accent)}
+  .meta{color:var(--muted);font-size:.85rem}
+  h2{font-size:.95rem;text-transform:uppercase;letter-spacing:.08em;
+     color:var(--accent);margin:28px 0 12px}
+  ul.rules{padding:0;margin:0;display:grid;gap:8px;
+           grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+  ul.rules li{list-style:none;background:var(--panel);border:1px solid var(--border);
+              border-radius:8px;padding:10px 14px;font-size:.9rem}
+  ul.rules .cond{display:block;color:var(--muted);font-size:.8rem}
+  table{width:100%;border-collapse:collapse;background:var(--panel);
+        border:1px solid var(--border);border-radius:10px;overflow:hidden}
+  td{padding:12px 14px;border-top:1px solid var(--border);vertical-align:top;
+     font-size:.92rem}
+  tr:first-child td{border-top:none}
+  .when{color:var(--muted);white-space:nowrap;width:1%}
+  .price{text-align:right;white-space:nowrap;color:var(--hit);font-weight:600}
+  .merchant{color:var(--muted);font-weight:400;font-size:.8rem}
+  .rulebadge{color:var(--accent);font-size:.78rem;text-transform:uppercase;
+             letter-spacing:.05em}
+  a{color:var(--text);text-decoration:none}
+  a:hover{color:var(--accent)}
+  .empty{color:var(--muted);text-align:center;padding:40px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Deal-<span>Sniper</span> 🎯</h1>
+    <div class="meta">mydealz-Watchlist · alle 2 h geprüft · Stand: <!--UPDATED--></div>
+  </header>
+
+  <h2>Aktive Regeln</h2>
+  <ul class="rules"><!--RULES--></ul>
+
+  <h2>Treffer</h2>
+  <table><tbody><!--HITS--></tbody></table>
+</div>
+</body>
+</html>
