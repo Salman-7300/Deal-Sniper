@@ -57,6 +57,147 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+# ── Telegram-Commands: Regeln per Chat verwalten ───────────────────────────
+def load_dynamic_rules() -> list[dict]:
+    return load_json(STATE_DIR / "dynamic_rules.json", [])
+
+
+def save_dynamic_rules(rules: list[dict]) -> None:
+    save_json(STATE_DIR / "dynamic_rules.json", rules)
+
+
+def tg_send_plain(token: str, chat_id: str, text: str) -> None:
+    try:
+        httpx.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                   json={"chat_id": chat_id, "text": text, "parse_mode": "HTML",
+                         "disable_web_page_preview": True}, timeout=20)
+    except Exception as exc:
+        print(f"WARN: Antwort nicht gesendet: {exc}", file=sys.stderr)
+
+
+def parse_watch_command(text: str) -> dict | None:
+    """/watch RTX 4070 max 480 min_temp 50 -> Regel-Dict.
+    'max <preis>' und 'min_temp <n>' sind optionale Suffixe."""
+    parts = text.split()
+    if not parts or parts[0].lower() not in ("/watch", "/watch@"):
+        return None
+    tokens = parts[1:]
+    max_price = None
+    min_temp = None
+    keywords = []
+    i = 0
+    while i < len(tokens):
+        low = tokens[i].lower()
+        if low == "max" and i + 1 < len(tokens):
+            try:
+                max_price = float(tokens[i + 1].replace(",", ".").replace("€", ""))
+            except ValueError:
+                pass
+            i += 2
+        elif low in ("min_temp", "temp") and i + 1 < len(tokens):
+            try:
+                min_temp = int(tokens[i + 1])
+            except ValueError:
+                pass
+            i += 2
+        else:
+            keywords.append(tokens[i])
+            i += 1
+    if not keywords:
+        return None
+    rule = {"name": " ".join(keywords), "all": [k.lower() for k in keywords], "none": []}
+    if max_price is not None:
+        rule["max_price"] = max_price
+    if min_temp is not None:
+        rule["min_temp"] = min_temp
+    return rule
+
+
+def process_commands(token: str, chat_id: str) -> None:
+    """Liest neue Nachrichten und verarbeitet /watch, /unwatch, /rules, /help.
+    Nur Nachrichten aus dem konfigurierten Chat werden akzeptiert."""
+    state = load_json(STATE_DIR / "cmd_offset.json", {"offset": 0})
+    try:
+        resp = httpx.get(f"https://api.telegram.org/bot{token}/getUpdates",
+                         params={"offset": state["offset"] + 1,
+                                 "allowed_updates": '["message"]', "timeout": 0},
+                         timeout=30)
+        resp.raise_for_status()
+        updates = resp.json().get("result", [])
+    except Exception as exc:
+        print(f"WARN: Command-Abruf fehlgeschlagen: {exc}", file=sys.stderr)
+        return
+
+    rules = load_dynamic_rules()
+    changed = False
+    for upd in updates:
+        state["offset"] = max(state["offset"], upd["update_id"])
+        msg = upd.get("message") or {}
+        if str(msg.get("chat", {}).get("id", "")) != str(chat_id):
+            continue  # nur dein eigener Chat darf Regeln ändern
+        text = (msg.get("text") or "").strip()
+        low = text.lower()
+
+        if low.startswith("/watch"):
+            rule = parse_watch_command(text)
+            if not rule:
+                tg_send_plain(token, chat_id,
+                    "⚠️ Format: <code>/watch RTX 4070 max 480 min_temp 50</code>")
+                continue
+            rules = [r for r in rules if r["name"].lower() != rule["name"].lower()]
+            rules.append(rule)
+            changed = True
+            extra = []
+            if "max_price" in rule:
+                extra.append(f"≤ {rule['max_price']:.0f} €")
+            if "min_temp" in rule:
+                extra.append(f"≥ {rule['min_temp']}°")
+            tg_send_plain(token, chat_id,
+                f"✅ Regel gespeichert: <b>{html.escape(rule['name'])}</b>"
+                + (f" ({', '.join(extra)})" if extra else ""))
+
+        elif low.startswith("/unwatch"):
+            target = text[len("/unwatch"):].strip().lower()
+            before = len(rules)
+            rules = [r for r in rules if r["name"].lower() != target]
+            if len(rules) < before:
+                changed = True
+                tg_send_plain(token, chat_id, f"🗑 Regel entfernt: <b>{html.escape(target)}</b>")
+            else:
+                tg_send_plain(token, chat_id,
+                    f"Keine Regel namens „{html.escape(target)}“ gefunden. "
+                    "<code>/rules</code> zeigt alle.")
+
+        elif low.startswith("/rules"):
+            if not rules:
+                tg_send_plain(token, chat_id, "Keine per Chat angelegten Regeln. "
+                    "Neu: <code>/watch &lt;begriffe&gt; max &lt;preis&gt;</code>")
+            else:
+                lines = ["<b>Deine Chat-Regeln:</b>"]
+                for r in rules:
+                    extra = []
+                    if "max_price" in r:
+                        extra.append(f"≤ {r['max_price']:.0f} €")
+                    if "min_temp" in r:
+                        extra.append(f"≥ {r['min_temp']}°")
+                    lines.append(f"• <b>{html.escape(r['name'])}</b>"
+                                 + (f" ({', '.join(extra)})" if extra else ""))
+                tg_send_plain(token, chat_id, "\n".join(lines))
+
+        elif low.startswith("/help") or low.startswith("/start"):
+            tg_send_plain(token, chat_id,
+                "<b>Deal-Sniper Befehle:</b>\n"
+                "<code>/watch RTX 4070 max 480</code> – Regel anlegen\n"
+                "<code>/watch 2tb nvme max 95 min_temp 50</code> – mit Filtern\n"
+                "<code>/unwatch RTX 4070</code> – Regel löschen\n"
+                "<code>/rules</code> – alle Chat-Regeln anzeigen")
+
+    save_json(STATE_DIR / "cmd_offset.json", state)
+    if changed:
+        save_dynamic_rules(rules)
+        print(f"Chat-Regeln aktualisiert: {len(rules)} aktiv")
+
+
 # ── Feeds holen & parsen ───────────────────────────────────────────────────
 def parse_price(text: str) -> float | None:
     m = PRICE_RE.search(text)
@@ -93,12 +234,15 @@ def fetch_deals(feed_names: list[str]) -> list[dict]:
                 summary_html = getattr(entry, "summary", "") or ""
                 summary = re.sub(r"\s+", " ", TAG_RE.sub(" ", summary_html)).strip()
                 merchant = ""
+                struct_price = None
                 pm = getattr(entry, "pepper_merchant", None)
                 if isinstance(pm, dict):
                     merchant = pm.get("name", "")
+                    # Strukturierter Preis ist zuverlässiger als Regex aus dem Text
+                    struct_price = parse_price(pm.get("price", "") or "")
                 deals.append({
                     "guid": guid, "title": title, "link": link,
-                    "price": parse_price(summary) or parse_price(title),
+                    "price": struct_price or parse_price(summary) or parse_price(title),
                     "merchant": merchant,
                     "haystack": f"{title} {summary}".lower(),
                 })
@@ -285,10 +429,21 @@ def render_dashboard(all_hits: list[dict], rules: list[dict], best30: dict) -> N
 def main() -> int:
     cfg = yaml.safe_load((BASE / "watchlist.yaml").read_text(encoding="utf-8"))
     rules = cfg.get("rules", [])
-    if not rules:
-        print("Keine Regeln in watchlist.yaml – nichts zu tun")
-        return 0
     default_min_temp = int(cfg.get("min_temp", 0))
+
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
+    # Erst neue Chat-Befehle verarbeiten (kann Regeln hinzufügen/entfernen)
+    if token and chat_id:
+        process_commands(token, chat_id)
+
+    # Statische (YAML) + dynamische (per Chat) Regeln zusammenführen
+    dynamic = load_dynamic_rules()
+    all_rules = rules + dynamic
+    if not all_rules:
+        print("Keine Regeln (weder YAML noch Chat) – nichts zu tun")
+        return 0
+    print(f"{len(rules)} YAML-Regeln + {len(dynamic)} Chat-Regeln aktiv")
 
     seen_list = load_json(STATE_DIR / "seen.json", [])
     seen = set(seen_list)
@@ -296,7 +451,7 @@ def main() -> int:
     pending = load_json(STATE_DIR / "pending.json", [])
 
     deals = fetch_deals(cfg.get("feeds", ["hot"]))
-    hits = find_hits(deals, rules, seen, default_min_temp)
+    hits = find_hits(deals, all_rules, seen, default_min_temp)
     print(f"{len(hits)} neue Treffer")
 
     best30 = update_price_memory(hits)
@@ -320,7 +475,7 @@ def main() -> int:
     seen_list = (seen_list + [d["guid"] for d in deals if d["guid"] not in seen])[-SEEN_MAX:]
     save_json(STATE_DIR / "seen.json", seen_list)
 
-    render_dashboard(all_hits, rules, best30)
+    render_dashboard(all_hits, all_rules, best30)
     return 0
 
 

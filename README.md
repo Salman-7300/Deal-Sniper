@@ -80,3 +80,20 @@ dann Actions → „Deal-Sniper" → **Run workflow**.
   `state/pending.json` und kommen morgens gebündelt („Über Nacht aufgelaufen").
 - **Fehler-Alarm:** Schlägt der Workflow fehl, bekommst du eine
   Telegram-Nachricht mit Link zum Log.
+
+---
+
+## Neu in v3
+
+- **Strukturierter Preis:** Preis kommt jetzt bevorzugt aus dem RSS-Feld
+  `pepper_merchant` (zuverlässiger als Regex aus dem Text).
+- **Regeln per Telegram:** Schreib dem Bot direkt:
+  - `/watch RTX 4070 max 480` – neue Regel
+  - `/watch 2tb nvme max 95 min_temp 50` – mit Preis- und Temperatur-Filter
+  - `/unwatch RTX 4070` – Regel löschen
+  - `/rules` – alle Chat-Regeln anzeigen · `/help` – Hilfe
+  Chat-Regeln liegen in `state/dynamic_rules.json` und laufen zusätzlich zu
+  den YAML-Regeln. Nur Nachrichten aus deinem Chat werden akzeptiert.
+
+**Hinweis:** Nutzt `getUpdates` wie der KI-Digest – bei gemeinsamem Bot
+kollidieren beide. Am besten getrennte Bots verwenden.
