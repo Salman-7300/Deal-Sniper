@@ -2,7 +2,7 @@ name: Deal-Sniper
 
 on:
   schedule:
-    - cron: "30 4 * * *"   # 06:30 deutsche Sommerzeit (Winter: 05:30 lokal, dann auf '30 5 * * *' ändern)
+    - cron: "33 6 * * *"   # alle 2 Stunden (UTC, Minute 17 entlastet GitHubs Cron-Spitzen)
   workflow_dispatch: {}
 
 permissions:
@@ -40,3 +40,10 @@ jobs:
           git add state/ docs/
           git diff --cached --quiet || git commit -m "Sniper-Lauf $(date -u '+%F %H:%M')"
           git push
+
+      - name: Fehler-Alarm per Telegram
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="⚠️ Deal-Sniper-Lauf fehlgeschlagen: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
