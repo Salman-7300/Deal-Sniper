@@ -2,7 +2,7 @@ name: Deal-Sniper
 
 on:
   schedule:
-    - cron: "33 6 * * *"   # alle 2 Stunden (UTC, Minute 17 entlastet GitHubs Cron-Spitzen)
+    - cron: "17 */2 * * *"   # alle 2 Stunden (UTC, Minute 17 entlastet GitHubs Cron-Spitzen)
   workflow_dispatch: {}
 
 permissions:
