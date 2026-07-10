@@ -27,6 +27,10 @@
               border-radius:8px;padding:10px 14px;font-size:.9rem}
   ul.rules .cond{display:block;color:var(--muted);font-size:.8rem}
   ul.rules .best{display:block;color:var(--hit);font-size:.78rem;font-family:var(--mono)}
+  .spark-wrap{margin-top:8px}.spark{width:100%;height:48px;display:block}
+  .spark polyline{fill:none;stroke:var(--accent);stroke-width:2;vector-effect:non-scaling-stroke}
+  .spark-wrap span,.chart-empty{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+  .chart-empty{margin-top:8px}
   table{width:100%;border-collapse:collapse;background:var(--panel);
         border:1px solid var(--border);border-radius:10px;overflow:hidden}
   td{padding:12px 14px;border-top:1px solid var(--border);vertical-align:top;
@@ -46,15 +50,15 @@
 <div class="wrap">
   <header>
     <h1>Deal-<span>Sniper</span> 🎯</h1>
-    <div class="meta">mydealz-Watchlist · alle 2 h geprüft · Stand: 10.07.2026 12:04</div>
+    <div class="meta">mydealz-Watchlist · alle 2 h geprüft · Stand: 10.07.2026 12:11</div>
   </header>
 
   <h2>Aktive Regeln</h2>
-  <ul class="rules"><li><strong>2TB NVMe SSD</strong><span class='cond'>2tb + nvme ≤ 95 €</span></li>
-<li><strong>Mini-PC (Ryzen oder N100)</strong><span class='cond'>mini-pc ≤ 250 €</span></li>
-<li><strong>27&quot; WQHD Monitor 144Hz+</strong><span class='cond'>27 + wqhd ≤ 200 €</span><span class='best'>Bestpreis 30 T: 165,00 €</span></li>
-<li><strong>NAS-Festplatte ab 8TB</strong><span class='cond'>8tb ≤ 160 €</span></li>
-<li><strong>Raspberry Pi 5</strong><span class='cond'>raspberry pi 5 ≤ 80 €</span></li></ul>
+  <ul class="rules"><li><strong>2TB NVMe SSD</strong><span class='cond'>2tb + nvme ≤ 95 €</span><div class='chart-empty'>Noch zu wenig Preisdaten</div></li>
+<li><strong>Mini-PC (Ryzen oder N100)</strong><span class='cond'>mini-pc ≤ 250 €</span><div class='chart-empty'>Noch zu wenig Preisdaten</div></li>
+<li><strong>27&quot; WQHD Monitor 144Hz+</strong><span class='cond'>27 + wqhd ≤ 200 €</span><span class='best'>Bestpreis 30 T: 165,00 €</span><div class='spark-wrap'><svg class='spark' viewBox='0 0 220 48' role='img' aria-label='Preisverlauf der letzten 30 Tage'><polyline points='4.0,4.0 216.0,44.0'/></svg><span>165.00–199.00 € · zuletzt 165.00 €</span></div></li>
+<li><strong>NAS-Festplatte ab 8TB</strong><span class='cond'>8tb ≤ 160 €</span><div class='chart-empty'>Noch zu wenig Preisdaten</div></li>
+<li><strong>Raspberry Pi 5</strong><span class='cond'>raspberry pi 5 ≤ 80 €</span><div class='chart-empty'>Noch zu wenig Preisdaten</div></li></ul>
 
   <h2>Treffer</h2>
   <table><tbody><tr><td class='when'>10.07. 12:02</td><td><span class='rulebadge'>27&quot; WQHD Monitor 144Hz+ · 87°</span><br><a href="https://www.mydealz.de/deals/gigabyte-27-240hz-wqhd-ips-monitor-2808827" target="_blank" rel="noopener noreferrer">Gigabyte 27&quot; 240Hz WQHD IPS Monitor</a></td><td class='price'>165,00 €<br><span class='merchant'>Amazon</span></td></tr>
