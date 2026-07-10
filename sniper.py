@@ -113,8 +113,8 @@ def parse_watch_command(text: str) -> dict | None:
     return rule
 
 
-def process_commands(token: str, chat_id: str) -> None:
-    """Liest neue Nachrichten und verarbeitet /watch, /unwatch, /rules, /help.
+def process_commands(token: str, chat_id: str, static_rule_count: int = 0) -> None:
+    """Liest neue Nachrichten und verarbeitet /watch, /unwatch, /rules, /status, /help.
     Nur Nachrichten aus dem konfigurierten Chat werden akzeptiert."""
     state = load_json(STATE_DIR / "cmd_offset.json", {"offset": 0})
     try:
@@ -184,13 +184,39 @@ def process_commands(token: str, chat_id: str) -> None:
                                  + (f" ({', '.join(extra)})" if extra else ""))
                 tg_send_plain(token, chat_id, "\n".join(lines))
 
+        elif low.startswith("/status"):
+            run = load_json(STATE_DIR / "run_status.json", {})
+            pending_count = len(load_json(STATE_DIR / "pending.json", []))
+            last = run.get("finished_at") or "noch kein abgeschlossener Lauf"
+            try:
+                last = datetime.fromisoformat(last).astimezone(TZ).strftime("%d.%m.%Y %H:%M")
+            except (ValueError, TypeError):
+                pass
+            tg_send_plain(
+                token,
+                chat_id,
+                "<b>Deal-Sniper Status</b>\n"
+                f"• Letzter Lauf: <b>{html.escape(str(last))}</b>\n"
+                f"• Aktive Regeln: <b>{static_rule_count + len(rules)}</b> "
+                f"({static_rule_count} YAML + {len(rules)} Chat)\n"
+                f"• Geprüfte Deals zuletzt: <b>{run.get('deals_checked', 0)}</b>\n"
+                f"• Neue Treffer zuletzt: <b>{run.get('new_hits', 0)}</b>\n"
+                f"• Wartende Nacht-Treffer: <b>{pending_count}</b>\n"
+                f"• Gesamt gespeicherte Treffer: "
+                f"<b>{len(load_json(STATE_DIR / 'hits.json', []))}</b>",
+            )
+
         elif low.startswith("/help") or low.startswith("/start"):
-            tg_send_plain(token, chat_id,
+            tg_send_plain(
+                token,
+                chat_id,
                 "<b>Deal-Sniper Befehle:</b>\n"
                 "<code>/watch RTX 4070 max 480</code> – Regel anlegen\n"
                 "<code>/watch 2tb nvme max 95 min_temp 50</code> – mit Filtern\n"
                 "<code>/unwatch RTX 4070</code> – Regel löschen\n"
-                "<code>/rules</code> – alle Chat-Regeln anzeigen")
+                "<code>/rules</code> – alle Chat-Regeln anzeigen\n"
+                "<code>/status</code> – letzten Lauf und Queue prüfen",
+            )
 
     save_json(STATE_DIR / "cmd_offset.json", state)
     if changed:
@@ -383,10 +409,33 @@ def send_telegram(hits: list[dict], best30: dict, bundled: bool) -> bool:
     return True
 
 
+# ── Preisverlauf-Sparkline ─────────────────────────────────────────────────
+def sparkline_svg(entries: list[dict], days: int = 30) -> str:
+    cutoff = (datetime.now(TZ) - timedelta(days=days)).isoformat()
+    points = [e for e in entries if e.get("ts", "") >= cutoff and isinstance(e.get("price"), (int, float))]
+    if len(points) < 2:
+        return "<div class='chart-empty'>Noch zu wenig Preisdaten</div>"
+    vals = [float(e["price"]) for e in points[-60:]]
+    lo, hi = min(vals), max(vals)
+    width, height, pad = 220, 48, 4
+    span = hi - lo or 1.0
+    coords = []
+    for i, value in enumerate(vals):
+        x = pad + i * (width - pad * 2) / max(1, len(vals) - 1)
+        y = pad + (hi - value) * (height - pad * 2) / span
+        coords.append(f"{x:.1f},{y:.1f}")
+    last = vals[-1]
+    return (f"<div class='spark-wrap'><svg class='spark' viewBox='0 0 {width} {height}' "
+            f"role='img' aria-label='Preisverlauf der letzten {days} Tage'>"
+            f"<polyline points='{' '.join(coords)}'/></svg>"
+            f"<span>{lo:.2f}–{hi:.2f} € · zuletzt {last:.2f} €</span></div>")
+
+
 # ── Dashboard ──────────────────────────────────────────────────────────────
 def render_dashboard(all_hits: list[dict], rules: list[dict], best30: dict) -> None:
     DOCS_DIR.mkdir(exist_ok=True)
     template = (BASE / "template.html").read_text(encoding="utf-8")
+    prices = load_json(STATE_DIR / "prices.json", {})
 
     rule_rows = []
     for r in rules:
@@ -396,8 +445,9 @@ def render_dashboard(all_hits: list[dict], rules: list[dict], best30: dict) -> N
         best = best30.get(r["name"])
         bestp = (f"<span class='best'>Bestpreis 30 T: "
                  f"{f'{best:.2f}'.replace('.', ',')} €</span>" if best else "")
+        chart = sparkline_svg(prices.get(r["name"], []))
         rule_rows.append(f"<li><strong>{html.escape(r['name'])}</strong>"
-                         f"<span class='cond'>{cond}{maxp}</span>{bestp}</li>")
+                         f"<span class='cond'>{cond}{maxp}</span>{bestp}{chart}</li>")
 
     hit_rows = []
     for h in reversed(all_hits):
@@ -435,7 +485,7 @@ def main() -> int:
     chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
     # Erst neue Chat-Befehle verarbeiten (kann Regeln hinzufügen/entfernen)
     if token and chat_id:
-        process_commands(token, chat_id)
+        process_commands(token, chat_id, len(rules))
 
     # Statische (YAML) + dynamische (per Chat) Regeln zusammenführen
     dynamic = load_dynamic_rules()
@@ -462,6 +512,7 @@ def main() -> int:
 
     now = datetime.now(TZ)
     to_send = pending + hits
+    telegram_failed = False
     if to_send:
         if in_quiet_hours(now):
             print(f"Ruhezeit ({now:%H:%M}) – {len(to_send)} Treffer in Pending-Queue")
@@ -471,11 +522,23 @@ def main() -> int:
                 save_json(STATE_DIR / "pending.json", [])
             else:
                 save_json(STATE_DIR / "pending.json", to_send)
+                telegram_failed = True
 
     seen_list = (seen_list + [d["guid"] for d in deals if d["guid"] not in seen])[-SEEN_MAX:]
     save_json(STATE_DIR / "seen.json", seen_list)
 
     render_dashboard(all_hits, all_rules, best30)
+    save_json(STATE_DIR / "run_status.json", {
+        "finished_at": datetime.now(TZ).isoformat(),
+        "deals_checked": len(deals),
+        "new_hits": len(hits),
+        "rules_active": len(all_rules),
+        "pending": len(load_json(STATE_DIR / "pending.json", [])),
+        "telegram_ok": not telegram_failed,
+    })
+    if telegram_failed:
+        print("FEHLER: Telegram-Versand fehlgeschlagen; Treffer bleiben in pending.json", file=sys.stderr)
+        return 2
     return 0
 
 

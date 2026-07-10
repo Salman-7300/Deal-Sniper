@@ -29,8 +29,8 @@ Settings → Secrets and variables → Actions:
 
 | Secret | Wert |
 |---|---|
-| `TELEGRAM_BOT_TOKEN` | Denselben Bot wie beim KI-Digest nutzen – einfach Token nochmal eintragen |
-| `TELEGRAM_CHAT_ID` | Deine Chat-ID (auch identisch zum Digest) |
+| `TELEGRAM_BOT_TOKEN` | Token eines eigenen Deal-Sniper-Bots (getrennter Bot empfohlen) |
+| `TELEGRAM_CHAT_ID` | Deine Chat-ID; dem Bot vorher mindestens eine Nachricht senden |
 
 ### 3. Pages aktivieren
 Settings → Pages → Branch `main`, Ordner `/docs`.
@@ -91,9 +91,32 @@ dann Actions → „Deal-Sniper" → **Run workflow**.
   - `/watch RTX 4070 max 480` – neue Regel
   - `/watch 2tb nvme max 95 min_temp 50` – mit Preis- und Temperatur-Filter
   - `/unwatch RTX 4070` – Regel löschen
-  - `/rules` – alle Chat-Regeln anzeigen · `/help` – Hilfe
+  - `/rules` – alle Chat-Regeln anzeigen
+  - `/status` – letzter Lauf, Regeln, geprüfte Deals und Pending-Queue
+  - `/help` – Hilfe
   Chat-Regeln liegen in `state/dynamic_rules.json` und laufen zusätzlich zu
   den YAML-Regeln. Nur Nachrichten aus deinem Chat werden akzeptiert.
 
 **Hinweis:** Nutzt `getUpdates` wie der KI-Digest – bei gemeinsamem Bot
 kollidieren beide. Am besten getrennte Bots verwenden.
+
+
+## Update v4: Status, Preis-Charts und zuverlässigere Actions
+
+- **`/status`-Befehl:** Zeigt den letzten abgeschlossenen Lauf, Anzahl aktiver
+  YAML-/Chat-Regeln, geprüfte Deals, neue Treffer und wartende Nacht-Treffer.
+- **30-Tage-Preisverlauf:** Jede Regel erhält im GitHub-Pages-Dashboard eine
+  kompakte SVG-Kurve aus `state/prices.json` – ohne Chart-Bibliothek.
+- **Telegram-Preflight:** Der Workflow prüft vor jedem Lauf Bot-Token und
+  Chat-ID über Telegram. Fehlende oder ungültige Secrets machen den Lauf rot,
+  statt einen grünen Lauf ohne Nachricht zu erzeugen.
+- **Sicherer State-Commit:** Änderungen werden zuerst committet und danach per
+  Rebase synchronisiert. So gehen parallele State-Änderungen nicht still verloren.
+
+### Telegram-Test
+
+1. Dem Deal-Sniper-Bot in Telegram `/start` senden.
+2. GitHub: **Actions → Deal-Sniper → Run workflow**.
+3. Im Lauf muss **Telegram-Konfiguration prüfen** grün werden.
+4. Danach `/status` an den Bot senden; spätestens beim nächsten Sniper-Lauf
+   beantwortet er den Befehl.
