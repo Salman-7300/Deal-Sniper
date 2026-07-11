@@ -171,5 +171,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 28,
   "found_at": "2026-07-10T23:29:45.007041+02:00"
+ },
+ {
+  "guid": "57173e0bd51d908bfffd5954",
+  "title": "Lenovo L27q-4A 27” WQHD IPS Monitor (100 Hz, höhenverstellbar, Pivot) für 144,99 € inkl. Versand",
+  "link": "https://www.mydealz.de/deals/lenovo-l27q-4a-27-wqhd-ips-monitor-100-hz-hohenverstellbar-pivot-fur-14499-eur-inkl-versand-2809940",
+  "price": 144.99,
+  "merchant": "Enzinger",
+  "haystack": "lenovo l27q-4a 27” wqhd ips monitor (100 hz, höhenverstellbar, pivot) für 144,99 € inkl. versand 144,99€ - enzinger zum angebot gibt es aktuell den lenovo l27q-4a mit 27 zoll wqhd-auflösung zum guten kurs. für knapp 145 € bekommt man einen ips-monitor mit 100 hz, ergonomischem standfuß und ordentlicher farbabdeckung – besonders interessant für homeoffice, studium, multimedia und allround-nutzung. technische daten: * 27 zoll ips-panel * auflösung: 2.560 × 1.440 pixel (wqhd) * bildwiederholrate: 100 hz * reaktionszeit: bis zu 1 ms mprt * hdr10-unterstützung * amd freesync / adaptive sync * helligkeit: 350 cd/m² * farbraumabdeckung: 99 % srgb / 90 % dci-p3 * ergonomischer standfuß: * höhenverstellung * pivot-funktion * dreh-/neigefunktion * anschlüsse: * 2× hdmi 2.1 * 1× displayport 1.4 * 3,5-mm-audioausgang * integrierte lautsprecher * vesa-halterung 100×100 mm bewertung: für den preis bekommt man einen sehr gut ausgestatteten 27-zoll-wqhd-monitor. besonders der höhenverstellbare standfuß ist in dieser preisklasse nicht selbstverständlich. vorteile ✅ wqhd-auflösung auf 27 zoll ✅ ips-panel mit guten farben ✅ 100 hz für flüssigeres arbeiten und gaming ✅ ergonomischer standfuß inklusive ✅ sehr guter preis unter 150 € nachteile ❌ kein usb-c ❌ kein usb-hub ❌ für high-end-gaming nicht gedacht fazit: wer einen günstigen 27-zoll-wqhd-monitor für office, multimedia oder gelegentliches gaming sucht, bekommt hier aktuell viel ausstattung fürs geld.",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 133,
+  "found_at": "2026-07-11T17:18:22.429484+02:00"
  }
 ]
