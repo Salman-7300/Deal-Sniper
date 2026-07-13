@@ -193,5 +193,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 455,
   "found_at": "2026-07-12T21:33:39.623798+02:00"
+ },
+ {
+  "guid": "e38b60ebc8dbdbe2aca49bda",
+  "title": "210° - KTC H27T27 27\" WQHD IPS Gaming-Monitor für nur 76,07 € / evtl.73,07 €",
+  "link": "https://www.mydealz.de/deals/ktc-h27t27-27-wqhd-ips-gaming-monitor-fur-nur-7607-eur-evtl7307-eur-2810911",
+  "price": 76.07,
+  "merchant": "AliExpress",
+  "haystack": "210° - ktc h27t27 27\" wqhd ips gaming-monitor für nur 76,07 € / evtl.73,07 € 76,07€ - aliexpress wer einen günstigen monitor für homeoffice, gaming oder den alltag sucht, bekommt aktuell den ktc h27t27 zu einem starken preis. mit dem gutscheincode vsde11 ko...",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 148,
+  "found_at": "2026-07-13T21:52:14.600303+02:00"
  }
 ]
