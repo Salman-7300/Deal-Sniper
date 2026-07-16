@@ -204,5 +204,27 @@
   "rule": "27\" WQHD Monitor 144Hz+",
   "temp": 148,
   "found_at": "2026-07-13T21:52:14.600303+02:00"
+ },
+ {
+  "guid": "8b41f5505c43315cc8f2522b",
+  "title": "[AliExpress] GMKtec K12 Mini-PC AMD Ryzen7 H255 (Aufgerüstet auf 8745HS) Oculink-Unterstützung DDR5",
+  "link": "https://www.mydealz.de/deals/aliexpress-gmktec-k12-mini-pc-amd-ryzen7-h255-aufgerustet-auf-8745hs-oculink-unterstutzung-ddr5-2812165",
+  "price": 242.99,
+  "merchant": "AliExpress",
+  "haystack": "[aliexpress] gmktec k12 mini-pc amd ryzen7 h255 (aufgerüstet auf 8745hs) oculink-unterstützung ddr5 242,99€ - aliexpress lokaler versand, daher kein zusätzlicher zoll.",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 598,
+  "found_at": "2026-07-16T12:22:02.389968+02:00"
+ },
+ {
+  "guid": "c147147952ca1952406af9e8",
+  "title": "Lenovo ThinkCentre M75n WLAN Ryzen 5 Pro 3500U 8GB RAM NVME Mini PC (Refurbished)",
+  "link": "https://www.mydealz.de/deals/lenovo-thinkcentre-m75n-wlan-ryzen-5-pro-3500u-8gb-ram-nvme-mini-pc-2812102",
+  "price": 99.9,
+  "merchant": "eBay",
+  "haystack": "lenovo thinkcentre m75n wlan ryzen 5 pro 3500u 8gb ram nvme mini pc (refurbished) 99,90€ - ebay ich habe einen ultra-kompakten linux pc gesucht, um dort batocera zu installieren und retro-konsolen im wohnzimmer auf dem großen tv zu spielen. dafür ist das ding 1a! es gab schon früher deals zu diesem gerät, aber meistens die schwächere variante mit ryzen 3 3300u, der nur eine vega 6 gpu hat, statt vega 8, was deutlich schwächer als dieser hier ist, und ohne wlan-modul. bei dem preis gibt es nvme speicher leider nur gegen aufpreis, aber das schmälert den deal nicht. ich will gar nicht viel dazu schreiben, denn eine fantastische beschreibung zu diesem gerät findet ihr hier: mydealz.de/share-deal-from-app/2650032 der lenovo thinkcentre m75n ist ein kompakter mini-pc für büroarbeiten. *produktspezifikationen:* - modell: thinkcentre m75n - prozessor: ryzen 5 pro 3500u - arbeitsspeicher: 8gb ddr4 - speicher: nvme ssd (gegen aufpreis) - betriebssystem: windows (gegen aufpreis) - integriertes wlan und bluetooth - anschlüsse: displayport, usb 3.0, usb-c",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 38,
+  "found_at": "2026-07-16T12:22:02.952372+02:00"
  }
 ]
