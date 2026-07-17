@@ -226,5 +226,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 38,
   "found_at": "2026-07-16T12:22:02.952372+02:00"
+ },
+ {
+  "guid": "539bb23438745c26384dafda",
+  "title": "ECS Elitegroup LIVA Q3 Plus Mini-PC (Ryzen Embedded V1605B, 8GB DDR4, 128GB eMMC, HDMI, Mini-DP, 3x USB-A, LAN, microSD, 74x52.1x74mm)",
+  "link": "https://www.mydealz.de/deals/ecs-elitegroup-liva-q3-plus-mini-pc-ryzen-embedded-v1605b-8gb-ddr4-128gb-emmc-hdmi-mini-dp-3x-usb-a-microsd-74x521x74mm-2812816",
+  "price": 169.0,
+  "merchant": "Mindfactory",
+  "haystack": "ecs elitegroup liva q3 plus mini-pc (ryzen embedded v1605b, 8gb ddr4, 128gb emmc, hdmi, mini-dp, 3x usb-a, lan, microsd, 74x52.1x74mm) 169€ - mindfactory mindfactory hat gerade einen aus meiner sicht recht interessanten mini-pc im mindstar . für 169€ inkl. versand erhält man das modell liva liva q3 plus 1605 mit einem ryzen embedded v1605b , 8gb ddr4-2400 und 128gb emmc . zum aktuellen zeitpunkt sind zehn exemplare verfügbar . normalerweise werden 207,90€ fällig. der prozessor , welcher noch auf der ersten zen-generation basiert, ist natürlich absolut kein kraftprotz . am ehesten ist er mit dem ryzen 5 2500u vergleichbar , welcher früher in budget-laptops verbaut wurde. vom pcmag gab es damals zum erscheinen trotzdem eine recht anständige bewertung. eta prime hat den mini-würfel vor fünf jahren ebenfalls in einem video getestet: [shortcode id=\"20331116\"/] hier geht es zur produktseite des herstellers. spezifikationen laut geizhals formfaktor mini-pc cpu amd ryzen embedded v1605b, 4c/8t, 2.00-3.60ghz, 4mib+2mib cache, 15w tdp, 12-25w ctdp, codename \"great horned owl\" (zen, gf 14nm) chipsatz soc (system-on-chip) ram 8gb ddr4-2400 (1x 8gb modul, 2 slots gesamt, 1 slot frei, max. 8gb) flash 128gb emmc grafik amd radeon vega 8 graphics (igpu), 8cu/512sp, 1.10ghz, architektur \"gcn 5.0\" anschlüsse hinten 1x mini displayport 1.4, 1x hdmi 2.0, 1x rj-45 (1000base-t), 1x dc-in hohlbuchse (netzanschluss) anschlüsse vorne/seitlich 2x usb-a 3.0 (5gb/s), 1x usb-a 2.0 (480mb/s) wireless wi-fi 5 (wlan 802.11a/b/g/n/ac), bluetooth 4.1 betriebssystem ohne netzteil extern 36w, hohlstecker (13v/2.77a) abmessungen 74x52.1x74mm (bxhxt) gewicht 359g besonderheiten sicherheitsschloss (kensington security slot), vesa-halterung inkludiert (75x75/100x100) farbe schwarz garantie ein jahr",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 179,
+  "found_at": "2026-07-17T16:05:38.349946+02:00"
  }
 ]
