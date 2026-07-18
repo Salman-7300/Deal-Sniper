@@ -237,5 +237,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 179,
   "found_at": "2026-07-17T16:05:38.349946+02:00"
+ },
+ {
+  "guid": "c31b2f219fdf9dda8265c0a8",
+  "title": "Lenovo Legion Y27h-30 Gaming Monitor (27\" QHD | 2560x1440 | 180Hz | 400 nits | 0,5ms | IPS | USB 3.2 | USB-C PD 75W | AMD FreeSync)",
+  "link": "https://www.mydealz.de/deals/lenovo-legion-y27h-30-gaming-monitor-27-qhd-2560x1440-180hz-400-nits-05ms-ips-usb-32-usb-c-pd-75w-amd-freesync-2813088",
+  "price": 142.99,
+  "merchant": "Amazon",
+  "haystack": "lenovo legion y27h-30 gaming monitor (27\" qhd | 2560x1440 | 180hz | 400 nits | 0,5ms | ips | usb 3.2 | usb-c pd 75w | amd freesync) 142,99€ - amazon bei amazon gibt es derzeitig den lenovo legion y27h-30 27\" qhd gaming monitor für 142,99 €. spezifikationen laut geizhals funktion monitor, stationär diagonale 27\" (68.6cm), klasse: 26\"-27\" auflösung 2560x1440 (wqhd), 16:9, 109ppi bildwiederholfrequenz 165hz (180hz oc, 2560x1440) helligkeit sdr 400cd/m² (typ.) reaktionszeit 1ms (gtg), 0.5ms (mprt) panel ips farbtiefe 10bit (1.07 mrd. farben, 8bit+2bit frc) display-oberfläche entspiegelt (anti-glare/anti-reflective) hintergrundbeleuchtung led, blaulichtfilter kontrast 1.000:1 (statisch), 3.000.000:1 (dynamisch) hdr displayhdr 400 ( vesa zertifiziert ) blickwinkel 178°/178° form gerade (flat) variable synchronisierung adaptive sync, amd freesync zertifiziert (48-165hz via displayport, 48-144hz via hdmi, mit lfc-support, mit hdr) anschlüsse 1x displayport 1.4 (165hz@2560x1440, 180hz@2560x1440 oc), 2x hdmi 2.0 (144hz@2560x1440), 1x usb-c 3.0 mit displayport 1.4 (upstream, 5gb/s, pd-out 75w, 165hz@2560x1440, 180hz@2560x1440 oc), 4x usb-a 3.0 (downstream, 5gb/s), 1x 3.5mm klinke line-out, 1x ac-in c14 (netzanschluss) signalfrequenz 15-256khz (h) / 48-165hz (v) bandbreite angenäherte bandbreite: 19.91gb/s @ 180hz, 18.25gb/s @ 165hz, 15.93gb/s @ 144hz hdmi 2.0 max. bandbreite: 14.4gb/s displayport 1.4 max. bandbreite: 25.92gb/s srgb 99% dci-p3 95% lut (lookup-tabelle) werkskalibrierung (delta-e &lt;2) lautsprecher 2x 3w kommunikation vorbereitet für herstellerspezifische webcam (lenovo lc50) bedienung mechanische tasten, steuerkreuz ergonomie standfuß, höhenverstellbar (135mm), pivot (±90°), drehbar (±30°), neigbar (+25°/-5°) vesa 100x100 (belegt) leistungsaufnahme 160w (maximal), 88w (typisch), 0.5w (standby) energieeffizienz sdr (a bis g) 26kwh/1000h (f) energieeffizienz hdr (a bis g) 28kwh/1000h (g) besonderheiten sicherheitsschloss (kensington security slot), ohne smart-funktionen oder betriebssystem screen-to-body-ratio 89.50% (berechnet) abmessungen 613.7x401.5x258.8mm (bxhxt) mit standfuß komprimiert, 613.7x536.5x258.8mm (bxhxt) mit standfuß ausgezogen, 613.7x365.9x61mm (bxhxt) ohne standfuß gewicht 6.80kg (mit standfuß), 4.80kg (ohne standfuß) farbe rückseite: schwarz/blau, standfuß: schwarz, blende: schwarz netzteil intern garantie drei jahre usb-schreibweise link kundenrezensionen",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 79,
+  "found_at": "2026-07-18T11:48:17.591697+02:00"
  }
 ]
