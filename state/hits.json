@@ -303,5 +303,27 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 128,
   "found_at": "2026-07-22T19:43:02.891114+02:00"
+ },
+ {
+  "guid": "a8f8cf737831d40658913555",
+  "title": "SOYO Y5 Plus Mini PC - Win11 Pro, Intel i7-4650U, 8GB & 128GB M.2 SSD, WIFI 5 & BT 4.2, unterstützt zwei 4K-Displays über USB-C",
+  "link": "https://www.mydealz.de/deals/soyo-y5-plus-mini-pc-win11-pro-intel-i7-4650u-8gb-128gb-m2-ssd-wifi-5-bt-42-unterstutzt-zwei-4k-displays-uber-usb-c-2808127",
+  "price": 117.4,
+  "merchant": "AliExpress",
+  "haystack": "soyo y5 plus mini pc - win11 pro, intel i7-4650u, 8gb & 128gb m.2 ssd, wifi 5 & bt 4.2, unterstützt zwei 4k-displays über usb-c 117,40€ - aliexpress der mini-pc ist mit einem intel core i7 der 4. generation (i7-4650u), 8 gb ram, 128 gb ssd und windows 11 pro ausgestattet. außerdem werden zwei 4k-displays, wlan, bluetooth und usb-c unterstützt. betriebssystem: windows 11 pro, vorinstalliert. prozessor (cpu): intel i7 4650u. grafik (gpu): intel uhd graphics 5000. arbeitsspeicher (ram): 8 gb ddr3; speicher (ssd): 128 gb m.2. anschluss: 4xusb 3.0, 2xhdmi, 1xgigabit-lan, 1x audio-klinke, 1x dc-strom. drahtlos: wi-fi 5, bluetooth 4.2. stromversorgung: 100-240v. gewicht: 250g; abmessungen (lxbxh): 11,4cmx10,5cmx3,5cm.",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 249,
+  "found_at": "2026-07-22T23:31:25.403660+02:00"
+ },
+ {
+  "guid": "55fe164b415507bd09128b9e",
+  "title": "Fujitsu Esprimo G558 Mini-PC (Intel i5 8500T, 16GB RAM, 256GB SSD, W11) (B-Ware)",
+  "link": "https://www.mydealz.de/deals/fujitsu-esprimo-g558-mini-pc-intel-i5-8500t-16gb-ram-256gb-ssd-w11-2807751",
+  "price": 169.95,
+  "merchant": "eBay",
+  "haystack": "fujitsu esprimo g558 mini-pc (intel i5 8500t, 16gb ram, 256gb ssd, w11) (b-ware) 169,95€ - ebay beim händler m-comp bei ebay gibt es aktuell den fujitsu esprimo g558 mini-pc im angebot. der preis liegt bei 174,95€ abzgl. 5€ gutschein \"perfectebay5e\" = 169,95€ das gerät wird mit vorinstalliertem windows 11 pro und einem zusätzlichen wlan-usb-stick geliefert. technische daten: modell: fujitsu esprimo g558 mini-pc prozessor: intel core i5-8500t (6x 2,10ghz, boost 3,50ghz) arbeitsspeicher: 16gb ddr4 ram festplatte: 256gb ssd grafikkarte: integrierte intel uhd graphics 630 laufwerk: ohne optisches laufwerk betriebssystem: windows 11 pro anschlüsse vorne: 1x usb 3.0, 1x usb 2.0, 1x lautsprecher (klinke) anschlüsse hinten: 1x displayport, 1x hdmi, 1x usb-c, 2x usb 3.0, 2x usb 2.0, 1x gbit lan (rj-45) lieferumfang: mini-pc, netzteil, wlan usb-stick der fujitsu esprimo g558 lässt sich problemlos an einer usb-c-dockingstation betreiben. der mini-pc unterstützt usb-c inklusive displayport (alt-mode) und sogar stromversorgung (selbst getestet).",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 247,
+  "found_at": "2026-07-22T23:31:26.334949+02:00"
  }
 ]
