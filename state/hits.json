@@ -369,5 +369,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 249,
   "found_at": "2026-07-23T01:17:24.945866+02:00"
+ },
+ {
+  "guid": "5e3d973b231441da17307383",
+  "title": "140° - Lenovo Legion 27\" Gaming Monitor 2560×1440 WQHD, 300Hz. IPS Panel. 99% sRGB Farbraum. FreeSync Premium & G-Sync. Für kompetitives Gaming.",
+  "link": "https://www.mydealz.de/deals/lenovo-legion-27-gaming-monitor-25601440-wqhd-300hz-ips-panel-99-srgb-farbraum-freesync-premium-g-sync-fur-kompetitives-gaming-2815480",
+  "price": 170.99,
+  "merchant": "notebooksbilliger",
+  "haystack": "140° - lenovo legion 27\" gaming monitor 2560×1440 wqhd, 300hz. ips panel. 99% srgb farbraum. freesync premium & g-sync. für kompetitives gaming. 170,99€ - notebooksbilliger lenovo legion 27q-11 – premium 27\" gaming monitor wqhd 2560×1440 auflösung, 300hz bildwiederholrate. ips panel, entspiegelt. 99% srgb, 95%...",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 131,
+  "found_at": "2026-07-23T19:48:50.947905+02:00"
  }
 ]
