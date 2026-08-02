@@ -490,5 +490,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 451,
   "found_at": "2026-08-01T12:12:06.636174+02:00"
+ },
+ {
+  "guid": "2ac07cf8de293b3abc26337c",
+  "title": "169° - [Amazon.uk] ASUS ExpertCenter PN64-B-S5121MD Mini PC, Core i5-12500H, Barebone",
+  "link": "https://www.mydealz.de/deals/amazonuk-asus-expertcenter-pn64-b-s5121md-mini-pc-core-i5-12500h-barebone-2819587",
+  "price": 156.66,
+  "merchant": "Amazon.co.uk",
+  "haystack": "169° - [amazon.uk] asus expertcenter pn64-b-s5121md mini pc, core i5-12500h, barebone 156,66€ - amazon.co.uk aussagekräftigen vergleichspreis gibt es hier nicht, ähnliche mini-pc barebones mit intel 12. und 13. generation und mindestens 4 p-cores kosten jedoch eher ...",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 2124,
+  "found_at": "2026-08-02T15:59:32.979476+02:00"
  }
 ]
