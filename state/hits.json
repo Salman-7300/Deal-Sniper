@@ -600,5 +600,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 857,
   "found_at": "2026-08-07T11:16:58.009560+02:00"
+ },
+ {
+  "guid": "d8cd54eec231587e998e4a51",
+  "title": "266° - Fujitsu Q7010 Mini PC Sammeldeal ab 159€ - i3 10100T / Intel i5 10500T, 8/16GB RAM, 256GB bis 1TB SSD - refurbished Office PC Proxmox Server",
+  "link": "https://www.mydealz.de/deals/fujitsu-q7010-mini-pc-sammeldeal-ab-169eur-i3-10100t-intel-i5-10500t-816gb-ram-256gb-bis-1tb-ssd-refurbished-office-pc-proxmox-server-2822290",
+  "price": 159.0,
+  "merchant": "",
+  "haystack": "266° - fujitsu q7010 mini pc sammeldeal ab 159€ - i3 10100t / intel i5 10500t, 8/16gb ram, 256gb bis 1tb ssd - refurbished office pc proxmox server 159€ wer den <a href=\"https://www.mydealz.de/deals/fujitsu-q958-mini-pc-intel-i3-8100t-1x-8gb-aufrustbar-128gb-ssd-m2-slot-opt-dvd-laufwerk-gebraucht-diy-nas-prox...",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 241,
+  "found_at": "2026-08-08T11:03:06.637739+02:00"
  }
 ]
