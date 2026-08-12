@@ -655,5 +655,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 333,
   "found_at": "2026-08-12T09:54:50.579082+02:00"
+ },
+ {
+  "guid": "cab8e4368910cc0e44cc1922",
+  "title": "Refurbished - Lenovo ThinkCentre M80Q Tiny i5-10500T 16GB Ram 256B M.2 NVMe [224,10€ möglich]",
+  "link": "https://www.mydealz.de/deals/refurbished-lenovo-thinkcentre-m80q-tiny-i5-10500t-16gb-ram-256b-m2-nvme-22410eur-moglich-2818489",
+  "price": 249.0,
+  "merchant": "eBay",
+  "haystack": "refurbished - lenovo thinkcentre m80q tiny i5-10500t 16gb ram 256b m.2 nvme [224,10€ möglich] 249€ - ebay wer hier einen guten windows 11 tauglichen office-pc braucht, ist mit dem gerät gut dabei. lenovo thinkcentre m80q tiny mit i5-10500t und 16gb ram, sowie 256b m.2 nvme. ausstattung: - prozessor: intel core i5-10500t (6c/12t, 2,3ghz base, 3,8ghz turbo) - arbeitsspeicher: 16 gb ram (2 slots verfügbar) - speicher: 256 gb m.2 nvme (1x nvme belegt, 1x sata frei) - betriebssystem: windows 11 pro (lizenz im bios hinterlegt) anschlüsse: - 1x usb-c (front) - 1x usb-a (front) - 1x audio 3,5mm (front) die anschlüsse hinten sind leider typabhängig und ob in den optionalen anschlüssen was verbaut ist, geht aus der beschreibung nicht hervor. definitiv aber: - 1x displayport - 1x hdmi - 1x gigabit ethernet - 4x usb 3.2 typ a es handelt sich um ein aufgearbeitetes gerät, deshalb ist ein preisvergleich mit einem neugerät nicht möglich. was genaues kann ich erst sagen, wenn mein gerät eingetroffen ist. windows konto zwang: microsoft macht es immer schwieriger, die offline-accounts zu erstellen. dazu gibt es aber diverse anleitungen im internet, je nach windows-version. wintotal.de/tipp/windows-11-25h2-ohne-microsoft-konto-installieren/ windows von unnötiger software und funktionen befreien: auch könnt ihr euer windows von sämtlicher unnützter software befreien. schaut dazu einfach hier mal: github.com/raphire/win11debloat dieser mini-pc ist: gut geeignet für: surfen und office home assistant proxmox videos schauen und streaming programmieren leichte bildbearbeitung ältere oder weniger anspruchsvolle spiele eingeschränkt bei: aktuellen aaa-spielen mit hoher bildrate professioneller video- oder 3d-bearbeitung ki-anwendungen und sehr rechenintensiven aufgaben",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 375,
+  "found_at": "2026-08-12T15:50:30.417586+02:00"
  }
 ]
