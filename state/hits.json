@@ -875,5 +875,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 250,
   "found_at": "2026-08-20T21:02:26.355143+02:00"
+ },
+ {
+  "guid": "a752fa382706ca9e7a6026ae",
+  "title": "157° - Fujitsu Futro S940n Mini-PC – Intel J5005, 4 GB DDR4, 32 GB SSD, lüfterlos, PCIe, Netzteil",
+  "link": "https://www.mydealz.de/deals/fujitsu-futro-s940n-mini-pc-intel-j5005-4-gb-ddr4-32-gb-ssd-lufterlos-pcie-netzteil-2828545",
+  "price": 38.9,
+  "merchant": "eBay",
+  "haystack": "157° - fujitsu futro s940n mini-pc – intel j5005, 4 gb ddr4, 32 gb ssd, lüfterlos, pcie, netzteil 38,90€ - ebay wer einen günstigen, lautlosen und sparsamen mini-pc für home assistant, proxmox, pi-hole, adguard home oder kleine docker-projekte sucht, bekommt hier den f...",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 25,
+  "found_at": "2026-08-21T20:58:41.576512+02:00"
  }
 ]
