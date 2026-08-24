@@ -919,5 +919,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 481,
   "found_at": "2026-08-23T18:44:55.156063+02:00"
+ },
+ {
+  "guid": "f89d8c2c16556e780bf67bfd",
+  "title": "428° - Fujitsu Q958 Mini PC Sammeldeal ab 99€ - Intel i3 8100T, i3 9100T, 8-16GB RAM, SSD, opt. DVD Laufwerk, Windows 11 Pro - refurbished",
+  "link": "https://www.mydealz.de/deals/fujitsu-q958-mini-pc-sammeldeal-ab-99eur-intel-i3-8100t-i3-9100t-8-16gb-ram-ssd-opt-dvd-laufwerk-windows-11-pro-refurbished-2829504",
+  "price": 99.0,
+  "merchant": "",
+  "haystack": "428° - fujitsu q958 mini pc sammeldeal ab 99€ - intel i3 8100t, i3 9100t, 8-16gb ram, ssd, opt. dvd laufwerk, windows 11 pro - refurbished 99€ wer den <a href=\"https://www.mydealz.de/deals/fujitsu-q958-mini-pc-intel-i3-8100t-1x-8gb-aufrustbar-128gb-ssd-m2-slot-opt-dvd-laufwerk-gebraucht-diy-nas-prox...",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 628,
+  "found_at": "2026-08-24T09:30:29.167972+02:00"
  }
 ]
