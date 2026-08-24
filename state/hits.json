@@ -930,5 +930,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 628,
   "found_at": "2026-08-24T09:30:29.167972+02:00"
+ },
+ {
+  "guid": "2fb880850424a2a8443bd450",
+  "title": "AOC Q27G4ZR: 27\" WQHD Gaming-Monitor, Fast IPS, 240 Hz, 0,3 ms, HDR400 | VSK-Frei | myMediaMarkt / Prime",
+  "link": "https://www.mydealz.de/deals/aoc-q27g4zr-27-wqhd-gaming-monitor-fast-ips-240-hz-03-ms-hdr400-vsk-frei-mymediamarkt-prime-2790342",
+  "price": 159.0,
+  "merchant": "MediaMarkt",
+  "haystack": "aoc q27g4zr: 27\" wqhd gaming-monitor, fast ips, 240 hz, 0,3 ms, hdr400 | vsk-frei | mymediamarkt / prime 159€ - mediamarkt mymediamarkt kunden bekommen aktuell den aoc q27g4zr gaming-monitor für 168,06€ inkl. versand! (y) alternativ auch über amazon erhältlich mit prime! der aktuelle preisvergleich liegt bei 191,84€ inkl. versand. eine vrr-technologie (variable refresh rate), die in verbindung mit nvidia-gpus ein flüssiges, ruckelfreies gameplay mit minimaler eingabeverzögerung und bildschirmartefakten ermöglicht. hdr400: high dynamic range für verbesserte farben und kontraste und ein lebendigeres seherlebnis. reduziert das flackern des bildschirms, um die belastung der augen bei längerem gebrauch zu minimieren. höhenverstellbar synchronisiert die bildwiederholfrequenz des displays mit der grafikkarte, um bildschirmrisse und stottern zu vermeiden. spezifikationen laut geizhals funktion monitor, stationär diagonale 27\" (68.6cm), klasse: 26\"-27\" auflösung 2560x1440 (wqhd), 16:9, 109ppi bildwiederholfrequenz 240hz (260hz oc, 2560x1440) helligkeit sdr 400cd/m² (typ.) reaktionszeit 1ms (gtg), 0.3ms (mprt) panel ips (fast ips) farbtiefe 8bit (16.7 mio. farben) display-oberfläche entspiegelt (anti-glare/anti-reflective), härtegrad 3h hintergrundbeleuchtung led, blaulichtfilter kontrast 1.000:1 (statisch) hdr hdr10 blickwinkel 178°/178° form gerade (flat) variable synchronisierung adaptive sync anschlüsse 1x displayport 1.4 (240hz@2560x1440, 260hz@2560x1440 oc), 2x hdmi 2.0, 1x 3.5mm klinke line-out, 1x ac-in c14 (netzanschluss) bandbreite angenäherte bandbreite: 23gb/s @ 260hz, 21.23gb/s @ 240hz hdmi 2.0 max. bandbreite: 14.4gb/s (kein dsc möglich) displayport 1.4 max. bandbreite: 25.92gb/s srgb 123.6% cie1976 (abdeckung) adobe rgb 91.4% cie1976 (abdeckung) dci-p3 95.2% cie1976 (abdeckung) bedienung mechanische tasten ergonomie standfuß, höhenverstellbar (130mm), pivot (±90°), drehbar (±30°), neigbar (+23°/-5°) vesa 100x100 (belegt) leistungsaufnahme 0.5w (standby), 0.3w (ausgeschaltet) energieeffizienz sdr (a bis g) 25kwh/1000h (f) energieeffizienz hdr (a bis g) 48kwh/1000h (g) besonderheiten sicherheitsschloss (kensington security slot), ohne smart-funktionen oder betriebssystem screen-to-body-ratio 89.37% (berechnet) abmessungen 613.9x386.1x207.7mm (bxhxt) mit standfuß komprimiert, 613.9x516.1x207.7mm (bxhxt) mit standfuß ausgezogen, 613.9x366.3x51.3mm (bxhxt) ohne standfuß gewicht 5.32kg (mit standfuß), 3.45kg (ohne standfuß) farbe rückseite: schwarz, standfuß: schwarz, blende: schwarz netzteil intern garantie drei jahre usb-schreibweise link [shortcode id=\"20325656\"/]",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 33,
+  "found_at": "2026-08-24T12:55:49.817198+02:00"
  }
 ]
