@@ -974,5 +974,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 206,
   "found_at": "2026-08-25T17:08:02.303341+02:00"
+ },
+ {
+  "guid": "2ac07cf8de293b3abc26337c",
+  "title": "[Amazon.uk] ASUS ExpertCenter PN64-B-S5121MD Mini PC, Core i5-12500H, Barebone",
+  "link": "https://www.mydealz.de/deals/amazonuk-asus-expertcenter-pn64-b-s5121md-mini-pc-core-i5-12500h-barebone-2819587",
+  "price": 156.66,
+  "merchant": "Amazon.co.uk",
+  "haystack": "[amazon.uk] asus expertcenter pn64-b-s5121md mini pc, core i5-12500h, barebone 156,66€ - amazon.co.uk aussagekräftigen vergleichspreis gibt es hier nicht, ähnliche mini-pc barebones mit intel 12. und 13. generation und mindestens 4 p-cores kosten jedoch eher im bereich um 300€. der i5-12500h hat mit 4p+8e cores schon gut leistung für den preis. asus expertcenter pn64-b-s5121md, core i5-12500h (90mr00u2-m003t0) formfaktor: mini-pc cpu: intel core i5-12500h, 4p+8e/16t, 1.80-4.50ghz, 18mib+9mib cache, 45-95w tdp (pbp/mtp), codename \"alder lake-h\" (golden cove + gracemont, intel 7) sockel: intel 1744 (bga1744) [verlötet] fernwartung: intel vpro essentials (soc) ram: 2x ddr5 so-dimm-slots, dual channel, max. 32gb udimm non-ecc ram-datenrate: ddr5-4800 ecc-unterstützung: nein m.2-slots: 1x m.2/m-key (pcie 4.0 x4, 2280), 1x m.2/e-key (2230, belegt mit wifi+bt-modul) grafik: intel uhd graphics [single-channel-konfiguration], intel iris xe graphics [dual-channel-konfiguration] (igpu) sonstige schnittstellen: 1x sata 6gb/s anschlüsse intern - usb: n/a anschlüsse intern - sonstige: n/a audio: realtek alc897 netzwerk: intel i225-v (2.5gb/s) anschlüsse hinten: 1x usb-c 3.1 mit displayport 1.4 (10gb/s, pd-out 15w, netzanschluss pd-in), 1x usb-a 3.1 (10gb/s), 2x hdmi 2.0, 1x rj-45 (2.5gbase-t, intel i225-v), 1x dc-in hohlbuchse (netzanschluss) anschlüsse hinten vorkonfiguriert: 1x displayport 1.4 anschlüsse vorne/seitlich: 1x usb-c 3.1 (10gb/s, pd-out 15w), 2x usb-a 3.1 (10gb/s), 1x 3.5mm klinke (realtek alc897) wireless: wi-fi 6e (wlan 802.11a/b/g/n/ac/ax, 2x2), bluetooth 5.2 kamera: n/a kühlung: mit cpu-kühler (aktiv) netzteil: extern 120w, hohlstecker (19.5v/6.15a), optional 1x usb-c netzteil 100w (20v/5a) abmessungen: 130x58x120mm (bxhxt) gewicht: 1.00kg besonderheiten: geeignet für dauerbetrieb, sicherheitsschloss (kensington security slot), vesa-halterung inkludiert (75x75/100x100) garantie: 2 jahre",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 626,
+  "found_at": "2026-08-25T20:59:25.096428+02:00"
  }
 ]
