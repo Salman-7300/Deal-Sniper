@@ -985,5 +985,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 626,
   "found_at": "2026-08-25T20:59:25.096428+02:00"
+ },
+ {
+  "guid": "ab5f3b86951fbeaae5f22a93",
+  "title": "HKC G27H4D Monitor | 27\", Fast IPS, WQHD (2560x1440), 260Hz, 350cd/m², HDR400, 95% DCI-P3, Adaptive Sync, VESA 100x100, 2x HDMI 2.0",
+  "link": "https://www.mydealz.de/deals/hkc-g27h4d-monitor-27-fast-ips-wqhd-2560x1440-260hz-350cdm2-hdr400-95-dci-p3-adaptive-sync-vesa-100x100-2x-hdmi-20-2831405",
+  "price": 122.82,
+  "merchant": "Amazon",
+  "haystack": "hkc g27h4d monitor | 27\", fast ips, wqhd (2560x1440), 260hz, 350cd/m², hdr400, 95% dci-p3, adaptive sync, vesa 100x100, 2x hdmi 2.0 122,82€ - amazon funktion: monitor, stationär diagonale: 27\" (68.6cm), klasse: 26\"-27\" auflösung: 2560x1440 (wqhd), 16:9, 109ppi bildwiederholfrequenz: 275hz (2560x1440, overclock), 260hz (nativ) helligkeit sdr: 350cd/m² (typ.) helligkeit hdr: 400cd/m² (typ.) reaktionszeit: 1ms (dic) panel: fast ips farbtiefe: 10bit (1.07 mrd. farben) display-oberfläche: entspiegelt (anti-glare/anti-reflective) hintergrundbeleuchtung: led, blaulichtfilter (hardwareseitig) kontrast: 1.000:1 (statisch) hdr: displayhdr 400 (vesa zertifiziert), hdr10 blickwinkel: 178°/178° form: gerade (flat) variable synchronisierung: adaptive sync anschlüsse: 1x displayport 1.4 (275hz@2560x1440), 2x hdmi 2.0 (144hz@2560x1440), 1x 3.5mm klinke line-out, 1x dc-in hohlbuchse (netzanschluss) bandbreite: angenäherte bandbreite: 30.41gb/s @ 275hz, 15.93gb/s @ 144hz hdmi 2.0 max. bandbreite: 14.4gb/s displayport 1.4 max. bandbreite: 25.92gb/s (benötigt dsc) srgb: 130% dci-p3: 95% lautsprecher: n/a bedienung: mechanische tasten ergonomie: standfuß, neigbar (+15°/-5°) vesa: 100x100 energieeffizienz sdr (a bis g): 21kwh/1000h (e) energieeffizienz hdr (a bis g): 35kwh/1000h (g) besonderheiten: sicherheitsschloss (kensington security slot), ohne smart-funktionen oder betriebssystem screen-to-body-ratio: 90.80% (berechnet) abmessungen: 613.5x481.4x214.9mm (bxhxt) mit standfuß farbe: schwarz, rückseite: schwarz/rot, standfuß: schwarz, blende: schwarz netzteil: extern garantie: 1 jahr kundenrezensionen",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 71,
+  "found_at": "2026-08-27T22:33:28.965926+02:00"
  }
 ]
