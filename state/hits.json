@@ -1062,5 +1062,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 1846,
   "found_at": "2026-08-31T15:58:17.926984+02:00"
+ },
+ {
+  "guid": "dbbee6464217c9e9dfb0a7d5",
+  "title": "AOC Q27G4ZR | 27\" WQHD, Fast IPS, 240Hz (260Hz OC) | G-Sync Compatible",
+  "link": "https://www.mydealz.de/deals/aoc-q27g4zr-27-wqhd-fast-ips-240hz-260hz-oc-g-sync-compatible-2833475",
+  "price": 159.0,
+  "merchant": "Amazon",
+  "haystack": "aoc q27g4zr | 27\" wqhd, fast ips, 240hz (260hz oc) | g-sync compatible 159€ - amazon moin, ein 27-zoll-wqhd-monitor mit fast-ips-panel und hoher bildwiederholrate, der sich klar an preisbewusste gamer richtet. eckdaten: 27\" (68,6cm) entspiegeltes fast-ips-panel, wqhd (2560x1440), 109ppi bei 16:9 240hz nativ, im oc-modus bis zu 260hz über displayport 1.4 adaptive sync, für nvidia-karten als g-sync compatible zertifiziert 100% srgb-abdeckung anschlüsse: 1x displayport 1.4, 2x hdmi 2.0 (hier ohne dsc nur mit reduzierter bandbreite nutzbar), 3,5mm klinke standfuß mit höhenverstellung (130mm), pivot, drehung und neigung basic tutorials hat den monitor getestet und bescheinigt ihm für seine damalige preisklasse von rund 192 bis 200€ eine der besten wertanmutungen am markt für einen qhd-240hz-monitor – beim aktuellen preis von 170,99€ fällt das urteil also eher noch günstiger aus. als kompromisse nennt der test den schmalen farbraum (kein dci-p3), den fehlenden usb-hub, mäßiges hdr sowie leichte homogenitätsschwächen des panels. für alle, die einen schnellen wqhd-monitor zum kleinen preis suchen und auf breiteren farbraum, usb-hub oder starkes hdr verzichten können, ein sehr solides angebot. wer viel bildbearbeitung oder hdr-konsum plant, sollte eher zu einem modell mit breiterer farbraumabdeckung greifen. kundenrezensionen",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 320,
+  "found_at": "2026-09-01T18:42:40.641103+02:00"
  }
 ]
