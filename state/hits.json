@@ -1084,5 +1084,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 572,
   "found_at": "2026-09-02T02:17:44.514183+02:00"
+ },
+ {
+  "guid": "bfe5645baff373bdd7a6bc53",
+  "title": "GMKtec NucBox G10 Mini-PC AMD Ryzen5 3500U, HDMI 2.1 (4K@60Hz), DP 1.4, Type-C (Barebone | ohne RAM & SSD) 2.5G Ethernet",
+  "link": "https://www.mydealz.de/deals/gmktec-nucbox-g10-mini-pc-amd-ryzen5-3500u-hdmi-21-4k-at-60hz-dp-14-type-c-barebone-ohne-ram-ssd-25g-ethernet-2834157",
+  "price": 125.69,
+  "merchant": "AliExpress",
+  "haystack": "gmktec nucbox g10 mini-pc amd ryzen5 3500u, hdmi 2.1 (4k@60hz), dp 1.4, type-c (barebone | ohne ram & ssd) 2.5g ethernet 125,69€ - aliexpress mit dem code mydealz12 oder deld12 bekommt ihr den gmktec nucbox g10 mini-pc aktuell für 125,69€ pvg der minipc g10 von gmktec vereint leistungsstarke technologie in einem kompakten design. ausgestattet mit einem amd ryzen 5 3500u prozessor, der vier kerne und acht threads bietet, ermöglicht dieses gerät eine beeindruckende leistung für verschiedene anwendungen, von büroarbeiten bis hin zu kreativen projekten. der minipc unterstützt bis zu drei 4k-bildschirme bei 60 hz, was ihn ideal für produktive arbeitsumgebungen macht. dank seines fortschrittlichen kühlsystems arbeitet das gerät leise, während die integrierte amd radeon vega 8 grafik für eine klare und scharfe bilddarstellung sorgt. kompatibel mit windows 11 pro, windows 10 und linux, ist der minipc g10 eine vielseitige lösung für moderne anforderungen. unterstützung für bis zu drei 4k-bildschirme bei 60 hz energieeffizienter amd ryzen 5 3500u prozessor mit turbo bis zu 3,7 ghz fortschrittliches kühlsystem für leisen betrieb vielseitige anschlussmöglichkeiten, einschließlich usb-c und hdmi. review [shortcode id=\"20336548\"/] technische übersicht prozessor amd ryzen 5 3500u kerne/threads: 4 / 8 cache: 4 mb boost‑takt: bis 3,7 ghz tdp: 25 w (max. 35 w) grafik amd radeon vega 8 gpu‑takt: 1.200 mhz arbeitsspeicher nicht enthalten 2× ddr4 so‑dimm unterstützt: 8 / 16 / 32 gb pro modul maximal: 64 gb geschwindigkeit: 2.400 mt/s massenspeicher nicht enthalten 2× m.2 2280 slots pcie 3.0 / nvme maximal: bis 16 tb gesamt netzwerk wlan: wi‑fi 5 (realtek rtl8822ce, bis 866,7 mbit/s) bluetooth: 5.0 lan: 2,5‑gbit/s‑ethernet (realtek rtl8125bg) unterstützte geschwindigkeiten: 2.500 / 1.000 / 100 / 10 mbit/s displayausgänge insgesamt 3 ausgänge: hdmi 2.1: bis 4k @ 60 hz displayport 1.4: bis 4k @ 60 hz usb‑c video: bis 4k @ 30 hz anschlüsse usb‑c strom: 1× usb 3.2: 2× usb 2.0: 1× usb‑c: 1× hdmi: 1× displayport: 1× rj45: 1× (2,5 gbit/s) audio: 3,5 mm ctia stromversorgung usb‑c netzteil: 19 v / 3,42 a leistung: 64,98 w eingang: 100–240 v ac, 50/60 hz, 1,7 a ladeunterstützung: pd &amp; non‑pd interne batterie: knopfzelle umgebung temperatur: −20 bis +60 °c luftfeuchtigkeit: 10–90 % abmessungen 103 × 98 × 42 mm sprachen 14 sprachen: deutsch , englisch, französisch, niederländisch, italienisch, spanisch, portugiesisch, russisch, arabisch, hebräisch, koreanisch, japanisch, vereinfachtes &amp; traditionelles chinesisch lieferumfang gmktec nucbox g10 netzteil vesa‑halterung + schrauben hdmi‑kabel benutzerhandbuch",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 721,
+  "found_at": "2026-09-03T02:19:10.465627+02:00"
  }
 ]
