@@ -1117,5 +1117,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 581,
   "found_at": "2026-09-04T02:08:21.124127+02:00"
+ },
+ {
+  "guid": "708fb4b6706586e39d36f0eb",
+  "title": "240° - Monitor iiyama G2741QSU-B1 Black Hawk, 27\" WQHD, IPS, 350Nits, 144Hz, 1ms, G-Sync, VESA, Lautsprecher für 132,98€ [Cdiscount Neukunden]",
+  "link": "https://www.mydealz.de/deals/monitor-iiyama-g2741qsu-b1-black-hawk-27-wqhd-ips-350nits-144hz-1ms-g-sync-vesa-lautsprecher-fur-13298eur-cdiscount-neukunden-2835142",
+  "price": 112.98,
+  "merchant": "Cdiscount",
+  "haystack": "240° - monitor iiyama g2741qsu-b1 black hawk, 27\" wqhd, ips, 350nits, 144hz, 1ms, g-sync, vesa, lautsprecher für 132,98€ [cdiscount neukunden] 112,98€ - cdiscount als cdiscount neukunde bekommt ihr den iiyama g2741qsu-b1 black hawk, 27\" wqhd, ips, 350nits, 144hz, 1ms, g-sync, vesa, lautsprecher für 112,98€ inkl. versan...",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 84,
+  "found_at": "2026-09-04T22:48:04.066935+02:00"
  }
 ]
