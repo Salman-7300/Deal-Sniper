@@ -1205,5 +1205,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 174,
   "found_at": "2026-09-13T06:53:50.331457+02:00"
+ },
+ {
+  "guid": "0c6ed83883892b6e2e83f70c",
+  "title": "Gaming Monitor Lenovo Legion 27Q-11",
+  "link": "https://www.mydealz.de/deals/gaming-monito-lenovo-legion-27q-11-2838563",
+  "price": 165.89,
+  "merchant": "notebooksbilliger",
+  "haystack": "gaming monitor lenovo legion 27q-11 165,89€ - notebooksbilliger gaming monitor mit wqhd und 300 hertz. derzeit die empfehlung für monitore ab 200€ auf hardwaredealz. bei nullprozentshop zum selben preis verfügbar: nullprozentshop.de/p/lenovo-legion-27q-11-gaming-monitor-ips-qhd-300hz-0-5ms/a1094634?nbbct=4004_idealo persönlich kenne ich den aber nicht und habe dementsprechend bei nbb bestellt. durchschnitsspreis laut idealo 195,54 in den letzten 311 tagen. zum abschluss ein paar stats von der anbieterseite: lenovo legion 27q-11 27\" qhd 2560 x 1440 auflösung 99% srgb und 95% dci-p3 farbraum 300hz extreme refresh rate mit 0,5ms (1ms od) mprt reaktionszeit nvidia® g-sync® kompatibel, amd freesync™ premium und vesa adaptive sync unterstützung hdmi® 2.1 und dp 1.4 anschlüsse legion space und lenovo® artery (lenovo® accessory display manager) software der lenovo legion pro 27q-11 monitor verfügt über außergewöhnliche visuelle klarheit mit qhd-auflösung für gamer, die wert auf qualität legen. profitieren sie von einer superschnellen gaming-performance und lebensechten hdr-bildern, um tief in ihr spiel und den wettkampf einzutauchen",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 420,
+  "found_at": "2026-09-13T13:57:36.341533+02:00"
  }
 ]
