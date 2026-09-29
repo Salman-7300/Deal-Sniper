@@ -1414,5 +1414,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 680,
   "found_at": "2026-09-29T10:36:44.755445+02:00"
+ },
+ {
+  "guid": "bed09b8abf41a4cd601ff54c",
+  "title": "Ab 1. Oktober | GMKtec Nucbox G10 Mini-PC Barebone - AMD Ryzen 5 3500U (4C/8T), Radeon Vega 8, Dual DDR4 SO-DIMM, 2× M.2 PCIe 3.0, 2,5 GbE",
+  "link": "https://www.mydealz.de/deals/ab-1-oktober-gmktec-nucbox-g10-mini-pc-barebone-amd-ryzen-5-3500u-4c8t-radeon-vega-8-dual-ddr4-so-dimm-2-m2-pcie-30-25-gbe-2845506",
+  "price": 124.69,
+  "merchant": "AliExpress",
+  "haystack": "ab 1. oktober | gmktec nucbox g10 mini-pc barebone - amd ryzen 5 3500u (4c/8t), radeon vega 8, dual ddr4 so-dimm, 2× m.2 pcie 3.0, 2,5 gbe 124,69€ - aliexpress aliexpress startet am 1. oktober in die local days und meine allwissende glaskugel möchte sich mal wieder an einer zukunftsvorhersage versuchen. ab dem 1. oktober um mitternacht bekommt ihr bei aliexpress den gmktec nucbox g10 mini-pc barebone für 124,69 € inkl. vsk mit code mydealz12 . bei idealo gibt's ihn nur mit ram und ssd, doch der nächste vergleichspreis sollte 189,99 € bei gmktec direkt betragen. konfiguration cpu: amd ryzen 5 3500u (4c/8t, zen+, 12 nm, 2,1–3,7 ghz, tdp 12–35 w) gpu: amd radeon vega 8 (bis 1200 mhz) ram: 2x ddr4 so-dimm, 2400 mt/s, bis 64 gb (nicht enthalten) speicher: 2x m.2 2280 pcie 3.0 nvme ssd, bis 16 tb (nicht enthalten) displays: bis 3x 4k (hdmi 2.1 @60 hz, dp 1.4 @60 hz, usb-c @30 hz) netzwerk: 2,5 gbe (realtek 8125bg), wifi 5 (rtl8822ce), bluetooth 5.0 anschlüsse: 2x usb 3.2, 1x usb 2.0, 1x usb-c (daten/dp/pd), 1x hdmi, 1x dp, 1x rj45, 1x 3,5 mm audio, 1x usb-c strom stromversorgung: usb-c-pd, 19 v/3,42 a (~65 w, netzteil inkl.) maße: 103 x 98 x 42 mm lieferumfang: mini-pc, netzteil, vesa-halterung + schrauben, hdmi-kabel, anleitung über die konfiguration der gmktec nucbox g10 ist ein kompakter barebone-mini-pc, bei dem ram und ssd selbst eingesetzt werden müssen. mit dem amd ryzen 5 3500u und der radeon vega 8 eignet er sich für office-aufgaben, multitasking, multi-monitor-setups mit bis zu drei 4k-displays sowie leichtes gaming und medienwiedergabe als htpc. dank 2,5 gbe lan, mehrerer usb-ports und dem kleinen format ist er außerdem als homeserver, nas-ergänzung oder firewall-/router-system (z. b. proxmox, pfsense, untangle) nutzbar. durch die usb-c-pd-stromversorgung ist auch der betrieb an powerbank oder usb-c-ladegerät möglich.",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 774,
+  "found_at": "2026-09-29T18:31:58.644786+02:00"
  }
 ]
