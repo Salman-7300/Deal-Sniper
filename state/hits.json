@@ -1425,5 +1425,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 774,
   "found_at": "2026-09-29T18:31:58.644786+02:00"
+ },
+ {
+  "guid": "ceb94c3c994fdb35908c1db3",
+  "title": "Lenovo ThinkCentre M920q Mini-PC (gebraucht, sehr gut) - Intel Pentium Gold G5400T (2C/4T), 8 GB DDR4, 250 GB SSD, HDMI + DP, Win 11 Pro",
+  "link": "https://www.mydealz.de/deals/lenovo-thinkcentre-m920q-mini-pc-gebraucht-sehr-gut-intel-pentium-gold-g5400t-2c4t-8-gb-ddr4-250-gb-ssd-hdmi-dp-win-11-pro-2845982",
+  "price": 99.0,
+  "merchant": "AfB",
+  "haystack": "lenovo thinkcentre m920q mini-pc (gebraucht, sehr gut) - intel pentium gold g5400t (2c/4t), 8 gb ddr4, 250 gb ssd, hdmi + dp, win 11 pro 99€ - afb den lenovo thinkcentre m920q mit pentium gold g5400t und 8/256 gbbekommt ihr im zustand \"sehr gut \" beim afb-shop gerade für 99 € inkl. vsk. bei gebrauchtware entfällt der preisvergleich, aber ähnliche gebrauchtmodelle gehen gut und gerne für 136 € über die theke. konfiguration cpu: intel pentium gold g5400t (2c/4t, 8. gen, 3,1 ghz) gpu: intel uhd graphics 610 (integriert) ram: 8 gb ddr4 speicher: 250 gb ssd displays: hdmi + displayport netzwerk: 1x lan rj-45 (kein wlan) anschlüsse: 5x usb 3 typ-a, 1x usb 3 typ-c, 1x hdmi, 1x displayport, 1x audio/mikrofon combo (3,5 mm), 1x mikrofon-eingang (3,5 mm) betriebssystem: windows 11 professional (vorinstalliert) extras: eset security 1 jahr gratis (laut hersteller) formfaktor: mini-pc maße: 183 x 179 x 37 mm gewicht: 1,3 kg zustand: gebraucht, grading „sehr gut\" lieferumfang: pc, netzteil, produktschlüssel (aufkleber oder digital hinterlegt) über die konfiguration der lenovo thinkcentre m920q eignet sich für office- und alltagsaufgaben wie office-aufgaben und videocalls. multi-monitor-setups über hdmi und displayport sind problemlos möglich. auch als thin client lässt er sich super nutzen. als media station wäre er vielleicht nicht die erste wahl, aber je nach anforderungsprofil klappt das vielleicht zur not auch.",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 249,
+  "found_at": "2026-09-30T14:41:18.389647+02:00"
  }
 ]
