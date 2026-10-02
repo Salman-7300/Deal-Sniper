@@ -1447,5 +1447,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 261,
   "found_at": "2026-10-01T21:34:43.402220+02:00"
+ },
+ {
+  "guid": "166541878b826054d8a2cab7",
+  "title": "(Afb) Fujitsu ThinClient/MiniPC FUTRO S9010, J5040, 16 GB DDR4+128 GB M.2, Win 11 Pro, mit PCIe-Slot, sehr gut",
+  "link": "https://www.mydealz.de/deals/afb-fujitsu-thinclientminipc-futro-s9010-j5040-16-gb-ddr4128-gb-m2-win-11-pro-mit-pcie-slot-sehr-gut-2847265",
+  "price": 99.0,
+  "merchant": "AfB",
+  "haystack": "(afb) fujitsu thinclient/minipc futro s9010, j5040, 16 gb ddr4+128 gb m.2, win 11 pro, mit pcie-slot, sehr gut 99€ - afb ein (evtl.) interessantes angebot von afb (de). der mini-pc bzw. thinclient fujitsu futro s9010, zustand sehr gut, wird mit 16 gb ddr4 und 128 gb m.2 msata (kein nvme) ausgerüstet, was im jetzigen marktstand schon nicht schlecht ist. highlight des gerätes ist, dass es ein freie pcie-slot für lowprofil-karte (x1) hat, sodass der einbau z.b. einer grafikkarte wie quadro p400 oder adapter pcie zu nvme/sata theoretisch möglich ist. produktmerkmale: cpu: intel pentium silver j5040, 4c4t, bis 3,2 ghz, tdp 10w, passmark 1335/3211 gpu: intel uhd graphics 605, mit 18 ausführungseinheiten ram: 16 gb ddr4 (vermutlich wurden 2x 8gb gebaut), 2 slots vorhanden festplatte: 1x m.2 msata ssd mit 128 gb lan: 1x rj45 (1 gbit/s) wlan: laut afb wurde eine m.2 wlan-karte eingebaut, jedoch ohne antenne! stromversorgen: 1x ext. netzteil wird mitgeliefert. jedoch ist nicht klar, ob der 45w oder 65w leistung hat. sonstige anschlüsse siehe bilder. infos für bastler die folgenden komponenten lassen sich nachträglich einbauen: - poe-lan modul (stromversorgung max. 25,5 w) - low-profil-pcie-karte (eher nur bei stromversorgung mit 65 w leistung) - internes stromversorgungsmodul (hat aber evtl. konflikt mit pcie-karte, schade!!) die hardware-anleitung kann man hier finden: https://support.ts.fujitsu.com/",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 357,
+  "found_at": "2026-10-02T14:42:42.982196+02:00"
  }
 ]
