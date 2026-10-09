@@ -1535,5 +1535,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 65,
   "found_at": "2026-10-08T08:11:36.699724+02:00"
+ },
+ {
+  "guid": "6cea0be99c07f4c83b9c6fd1",
+  "title": "[AliExpress] Barebone GMKtec NucBox G10 Mini-PC (AMD Ryzen 5 3500U, 4K Dual-Display, Radeon Vega 8, WiFi & BT, kompakter Desktop)",
+  "link": "https://www.mydealz.de/deals/aliexpress-gmktec-g10-mini-pc-intel-core-12-gen-n-serie-kompakter-desktop-pc-4k-dual-display-gigabit-lan-wifi-bluetooth-2851654",
+  "price": 130.69,
+  "merchant": "AliExpress",
+  "haystack": "[aliexpress] barebone gmktec nucbox g10 mini-pc (amd ryzen 5 3500u, 4k dual-display, radeon vega 8, wifi & bt, kompakter desktop) 130,69€ - aliexpress wer einen günstigen, kompakten allround-mini-pc mit echter amd-rechenpower und solider grafikeinheit sucht, bekommt bei aliexpress gerade den gmktec nucbox g10 für 130,69€ inkl. versand . der reguläre aktionspreis liegt bei 145,69€. um auf den preis zu kommen, gebt im warenkorb den gutscheincode debbc15 ein (-15€ rabatt). die aktion läuft bis zum 30.10.2026 . im inneren werkelt der amd ryzen 5 3500u (4 kerne / 8 threads bis zu 3,7 ghz) zusammen mit der radeon vega 8 grafik . damit hat der kleine deutlich mehr grafik- und multitasking-reserven als typische intel n-serie/celeron-kisten und eignet sich nicht nur für flüssiges office und 4k-streaming, sondern auch für leichtes casual-/retro-gaming oder als flotter homeserver (proxmox, docker, home assistant etc.). highlights &amp; technische daten: prozessor: amd ryzen 5 3500u (4 kerne / 8 threads, 2,1 ghz basistakt, boost bis 3,7 ghz, 15w tdp) grafikeinheit: integrierte amd radeon vega 8 graphics (deutlich potenter als einfache intel uhd-grafik) videoausgabe: dual-display-support (hdmi + dp/type-c) mit unterstützung für bis zu 4k @ 60hz netzwerk: rj45 gigabit lan (1000 mbps), dual-band wi-fi (2.4/5 ghz) und bluetooth konnektivität: mehrere usb 3.0 / usb 2.0 ports, usb-c, 3,5 mm klinkenanschluss kühlung: aktives kühlsystem mit leiser heatpipe/lüfter-kombination formfaktor &amp; montage: ultrakompaktes gehäuse, vesa-halterung kompatibel (lässt sich direkt hinter den monitor schrauben) einsatzbereiche: zuverlässiger arbeitsplatz-pc, home-office, medienzentrale, mini-homeserver oder emulations-rechner arbeitsspeicher (ram): 2x ddr4 so-dimm steckplätze (unterstützt 16 gb / 32 gb, 2400 mt/s, aufrüstbar auf bis zu 64 gb dual-channel) massenspeicher (ssd): 2x m.2 2280 pcie 3.0 x4 nvme-slots (unterstützt 512 gb / 1 tb, flexibel erweiterbar) einschätzung: für rund 130€ bekommt man hier ein vollwertiges ryzen-system mit 8 threads und vega-grafik. wer in der preisklasse sonst nur abgespeckte quad-cores findet, macht mit dem ryzen 5 3500u in puncto vielseitigkeit und grafikleistung einen spürbaren sprung.",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 3192,
+  "found_at": "2026-10-09T19:00:48.284141+02:00"
  }
 ]
