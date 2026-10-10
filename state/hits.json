@@ -1546,5 +1546,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 3192,
   "found_at": "2026-10-09T19:00:48.284141+02:00"
+ },
+ {
+  "guid": "ec25ccc7e62d1ce852d1d2c4",
+  "title": "228° - AOC Monitor - 27 Zoll, WQHD (2560x1440), IPS-Panel, DP & HDMI, VESA [Vorbestellung]",
+  "link": "https://www.mydealz.de/deals/aoc-monitor-27-zoll-wqhd-2560x1440-ips-panel-dp-hdmi-vesa-vorbestellung-2852037",
+  "price": 80.89,
+  "merchant": "Cyberport",
+  "haystack": "228° - aoc monitor - 27 zoll, wqhd (2560x1440), ips-panel, dp & hdmi, vesa [vorbestellung] 80,89€ - cyberport sucht man aktuell einen günstigen office-monitor und hat zeit zu warten, ist vielleicht das angebot von cyberport/<a href=\"https://www.computeruniverse.net/d...",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 190,
+  "found_at": "2026-10-10T14:38:10.609151+02:00"
  }
 ]
