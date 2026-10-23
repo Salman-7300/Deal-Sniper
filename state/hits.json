@@ -1,15 +1,5 @@
 [
  {
-  "guid": "a8f8cf737831d40658913555",
-  "title": "SOYO Y5 Plus Mini PC - Win11 Pro, Intel i7-4650U, 8GB & 128GB M.2 SSD, WIFI 5 & BT 4.2, unterstützt zwei 4K-Displays über USB-C",
-  "link": "https://www.mydealz.de/deals/soyo-y5-plus-mini-pc-win11-pro-intel-i7-4650u-8gb-128gb-m2-ssd-wifi-5-bt-42-unterstutzt-zwei-4k-displays-uber-usb-c-2808127",
-  "price": 117.4,
-  "merchant": "AliExpress",
-  "haystack": "soyo y5 plus mini pc - win11 pro, intel i7-4650u, 8gb & 128gb m.2 ssd, wifi 5 & bt 4.2, unterstützt zwei 4k-displays über usb-c 117,40€ - aliexpress der mini-pc ist mit einem intel core i7 der 4. generation (i7-4650u), 8 gb ram, 128 gb ssd und windows 11 pro ausgestattet. außerdem werden zwei 4k-displays, wlan, bluetooth und usb-c unterstützt. betriebssystem: windows 11 pro, vorinstalliert. prozessor (cpu): intel i7 4650u. grafik (gpu): intel uhd graphics 5000. arbeitsspeicher (ram): 8 gb ddr3; speicher (ssd): 128 gb m.2. anschluss: 4xusb 3.0, 2xhdmi, 1xgigabit-lan, 1x audio-klinke, 1x dc-strom. drahtlos: wi-fi 5, bluetooth 4.2. stromversorgung: 100-240v. gewicht: 250g; abmessungen (lxbxh): 11,4cmx10,5cmx3,5cm.",
-  "rule": "Mini-PC (Ryzen oder N100)",
-  "found_at": "2026-07-08T08:50:15.351161+02:00"
- },
- {
   "guid": "55fe164b415507bd09128b9e",
   "title": "Fujitsu Esprimo G558 Mini-PC (Intel i5 8500T, 16GB RAM, 256GB SSD, W11) (B-Ware)",
   "link": "https://www.mydealz.de/deals/fujitsu-esprimo-g558-mini-pc-intel-i5-8500t-16gb-ram-256gb-ssd-w11-2807751",
@@ -1638,5 +1628,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 45,
   "found_at": "2026-10-23T02:42:15.362046+02:00"
+ },
+ {
+  "guid": "a75adeea65634ecb8f45afe9",
+  "title": "Acer Nitro XZ320QUS3: 31,5 Zoll Curved-WQHD-Monitor mit 180 Hz, höhenverstellbar",
+  "link": "https://www.mydealz.de/deals/acer-nitro-xz320qus3-315-zoll-curved-wqhd-monitor-mit-180-hz-hohenverstellbar-2857993",
+  "price": 179.0,
+  "merchant": "MediaMarkt",
+  "haystack": "acer nitro xz320qus3: 31,5 zoll curved-wqhd-monitor mit 180 hz, höhenverstellbar 179€ - mediamarkt bei mediamarkt bekommt ihr den acer nitro xz320qus3 für 179 € inklusive versand . der gebogene 31,5-zoll-monitor kombiniert wqhd mit bis zu 180 hz und einem höhenverstellbaren standfuß. ein gutschein oder eine mitgliedschaft ist nicht nötig. preisvergleich: der nächste höhere preis für dieses modell liegt bei 260,99 € inklusive versand bei skwarenhandel über kaufland . das sind rund 82 € bzw. 31 % ersparnis. mediamarkt zeigt aktuell lieferung nach hause vom 24. bis 27. oktober. großes, gebogenes bild 31,5 zoll, 2.560 × 1.440 pixel und ein va-panel. die typische helligkeit beträgt 250 cd/m² – eher für normale innenräume als für sehr helle plätze. 180 hz über displayport über displayport sind bis zu 180 hz möglich, über hdmi bis zu 144 hz. amd freesync hilft gegen bildrisse. die beworbene 1 ms bezieht sich auf vrb. standfuß und anschlüsse der monitor ist höhenverstellbar. vorhanden sind hdmi, displayport, ein audioausgang und integrierte lautsprecher. zur einordnung ein günstiger großer wqhd-monitor mit hoher bildrate; kein oled oder besonders heller hdr-monitor. wer vor allem schnelle dunkle bildwechsel spielt, sollte die typischen va-eigenschaften berücksichtigen. modell: acer xz320qus3 / um.jx0ee.305 ean: 4711121888717 mediamarkt-artikelnr.: 2916186 farbe: schwarz",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 60,
+  "found_at": "2026-10-23T15:30:02.749812+02:00"
  }
 ]
