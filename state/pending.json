@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "guid": "8aac9f2d97962d3afc126e51",
+  "title": "[Gebraucht] Lenovo ThinkCentre M920q Mini pc - Intel Pentium Gold G5400T- 8 GB DDR4 - 250 GB SSD - Windows 11 Professional",
+  "link": "https://www.mydealz.de/deals/gebraucht-lenovo-thinkcentre-m920q-mini-pc-intel-pentium-gold-g5400t-8-gb-ddr4-250-gb-ssd-windows-11-professional-2845245",
+  "price": 99.0,
+  "merchant": "AfB",
+  "haystack": "[gebraucht] lenovo thinkcentre m920q mini pc - intel pentium gold g5400t- 8 gb ddr4 - 250 gb ssd - windows 11 professional 99€ - afb für die homelabber unter euch vielleicht ganz interessant, vorallem da hier über einen speziellen riser z.b. eine low profile pcie netzwerkkarte nachrüsten lässt wodurch sich das teil dann auch als router für z.b. opnsense oder pfsense einsetzen lässt. wem die performance von dem pentium nicht ganz reicht der kann für momentan etwa 19€ auf ebay den etwa doppelt so schnellen 8100t/9100t nachrüsten (ebenfalls 35w tdp). z.b. hier: 8100t - 12,49€ , 8100t - 12,39€ , 9100t - 18,90€ , 9100t, 18,80€ leider ist mir nicht bekannt ob hier eine nvme oder eine sata ssd verbaut ist. technische daten: zustand: gebraucht grading: sehr gut formfaktor: mini-pc prozessor: intel pentium gold g5400t @ 3,1 ghz cpu generation: 8 prozessorkerne: 2 onboard-grafik: intel uhd graphics 610 datenspeicher: 250 gb ssd arbeitsspeicher: 8 gb ddr4 wlan: nein betriebssystem: windows 11 professional schnittstellen: 1x audio / mikrofon - 3.5 mm combo, 1x displayport, 1x hdmi, 1x lan rj-45, 1x mikrofon - eingang - 3.5 mm, 1x usb 3 typ c, 5x usb 3 typ a gtin/ean: 4255867575574 maße (lxbxh): 183 x 37 x 179 mm gewicht: 1,3 kg detailiertere beschreibung gibts hier (andere cpu/ram konfiguration), wollt den dealtext nicht einfach klauen (:i : mydealz.de/deals/lenovo-thinkcentre-m920q-tiny-intel-vpro-i5-84500t-16gb-ram-ssd-usb-c-win-pro-key-mini-pc-fur-office-oder-proxmox-server-refurbished-2441363",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 45,
+  "found_at": "2026-10-23T02:42:15.362046+02:00"
+ }
+]
