@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "guid": "9cc1df0a0edd80e62081b7a5",
+  "title": "Lenovo Legion 27Q-11 Monitor | 27\" IPS, WQHD 300Hz, G-Sync Compatible, FreeSync Premium | 95% DCI-P3",
+  "link": "https://www.mydealz.de/deals/lenovo-legion-27q-11-monitor-27-ips-wqhd-300hz-g-sync-compatible-freesync-premium-95-dci-p3-2865603",
+  "price": 154.99,
+  "merchant": "notebooksbilliger",
+  "haystack": "lenovo legion 27q-11 monitor | 27\" ips, wqhd 300hz, g-sync compatible, freesync premium | 95% dci-p3 154,99€ - notebooksbilliger moin zusammen, der lenovo legion 27q-11 ist ein 27-zoll-ips-monitor mit wqhd-auflösung und 300hz, der laut pcgh zu den günstigsten geräten mit dieser kombination am markt gehört. eckdaten: 27\" ips, 2560x1440 (wqhd), 109ppi, entspiegelt, flach 300hz in nativer auflösung über displayport, laut händlerangaben 0,5ms (mprt) nvidia g-sync compatible und amd freesync premium (48-300hz über displayport) 99% srgb, 95% dci-p3 1x displayport 1.4, 2x hdmi 2.1 (tmds), 3,5-mm-klinke standfuß höhenverstellbar (135mm), pivot (±90°), drehbar (±30°), neigbar (+22°/-5°) vesa 100x100 der haken: die 300hz gibt es nur am displayport, an den beiden hdmi-2.1-ports (tmds) ist bei 144hz schluss. mit rund 300cd/m² helligkeit taugt der monitor zudem nicht für echtes hdr, und lautsprecher oder usb-hub gibt es nicht. für 300 bilder pro sekunde in wqhd braucht ihr außerdem eine starke grafikkarte und eine schnelle cpu. für alle, die kompetitive shooter spielen und einen schnellen wqhd-monitor mit solider farbdarstellung suchen, ist der 27q-11 eine gute wahl. wer kontrast, hdr oder viele anschlüsse will, sollte zu einem anderen modell greifen.",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 192,
+  "found_at": "2026-11-06T00:40:12.194255+01:00"
+ },
+ {
+  "guid": "5620194c7b099082433d0f3e",
+  "title": "AOC Q27G3XMN/BK Monitor | 27\" Mini-LED VA, WQHD 180Hz, DisplayHDR 1000",
+  "link": "https://www.mydealz.de/deals/aoc-q27g3xmnbk-monitor-27-mini-led-va-wqhd-180hz-displayhdr-1000-2865599",
+  "price": 199.0,
+  "merchant": "computeruniverse",
+  "haystack": "aoc q27g3xmn/bk monitor | 27\" mini-led va, wqhd 180hz, displayhdr 1000 199€ - computeruniverse eckdaten: 27\" fast-va-panel mit mini-led und full array local dimming (336 zonen), 2560x1440, 109ppi, entspiegelt 180hz an displayport, 144hz an hdmi 2.0, 1ms (gtg), freesync premium pro vesa displayhdr 1000, bis zu 1.000cd/m² spitzenhelligkeit, statischer kontrast 4.000:1 100% srgb, 98,5% dci-p3, werkskalibriert (delta-e unter 2) 1x displayport 1.4, 2x hdmi 2.0, 3,5-mm-klinke standfuß höhenverstellbar (130mm), pivot, drehbar (±30°), neigbar (+21,5°/-3,5°) drei jahre garantie der haken: bei mini-led mit local dimming sind helle objekte auf dunklem grund von einem leichten lichthof (blooming) umgeben, ein oled ist hier sauberer. laut testberichte.de fehlen zudem high-end-funktionen wie usb-c, auch lautsprecher und ein usb-hub gibt es nicht. an hdmi 2.0 ist bei 144hz schluss. für alle, die einen günstigen monitor mit starkem hdr und hohem kontrast für spiele und filme suchen, ist der preis ein sehr gutes angebot. wer usb-c oder einen hub braucht, sollte zu einem anderen modell greifen.",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 226,
+  "found_at": "2026-11-06T00:40:12.781241+01:00"
+ }
+]
