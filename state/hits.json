@@ -1,16 +1,5 @@
 [
  {
-  "guid": "8b41f5505c43315cc8f2522b",
-  "title": "[AliExpress] GMKtec K12 Mini-PC AMD Ryzen7 H255 (Aufgerüstet auf 8745HS) Oculink-Unterstützung DDR5",
-  "link": "https://www.mydealz.de/deals/aliexpress-gmktec-k12-mini-pc-amd-ryzen7-h255-aufgerustet-auf-8745hs-oculink-unterstutzung-ddr5-2812165",
-  "price": 242.99,
-  "merchant": "AliExpress",
-  "haystack": "[aliexpress] gmktec k12 mini-pc amd ryzen7 h255 (aufgerüstet auf 8745hs) oculink-unterstützung ddr5 242,99€ - aliexpress lokaler versand, daher kein zusätzlicher zoll.",
-  "rule": "Mini-PC (Ryzen oder N100)",
-  "temp": 598,
-  "found_at": "2026-07-16T12:22:02.389968+02:00"
- },
- {
   "guid": "c147147952ca1952406af9e8",
   "title": "Lenovo ThinkCentre M75n WLAN Ryzen 5 Pro 3500U 8GB RAM NVME Mini PC (Refurbished)",
   "link": "https://www.mydealz.de/deals/lenovo-thinkcentre-m75n-wlan-ryzen-5-pro-3500u-8gb-ram-nvme-mini-pc-2812102",
@@ -1648,5 +1637,16 @@
   "rule": "27\" WQHD Monitor 144Hz+",
   "temp": 2171,
   "found_at": "2026-11-09T10:52:40.883706+01:00"
+ },
+ {
+  "guid": "f0b5d007991c29fafb4f2d7d",
+  "title": "KTC H32S17 Curved Gaming-Monitor (31,5\" WQHD, 165Hz, 1500R, 1ms, VA",
+  "link": "https://www.mydealz.de/deals/ktc-h32s17-curved-gaming-monitor-315-wqhd-165hz-1500r-1ms-va-2846328",
+  "price": 127.61,
+  "merchant": "AliExpress",
+  "haystack": "ktc h32s17 curved gaming-monitor (31,5\" wqhd, 165hz, 1500r, 1ms, va 127,61€ - aliexpress bei aliexpress gibt es aktuell den beliebten ktc h32s17 31,5-zoll wqhd gaming-monitor für starke 138,50 € inkl. versand. so kommt ihr auf den preis: löst im bestellprozess den gutscheincode deld12 ein, um den preis auf 138,50 € zu drücken. paypal-rabatt kombinieren: achtet bei größeren bestellungen auf die aktuelle paypal-aktion. wenn ihr euren einkaufskorb mit weiteren artikeln auf über 299,- € gesamtbestellwert bringt und mit paypal zahlt, greift ein zusätzlicher direktabzug von 33 €. einschätzung &amp; produktdetails: der ktc h32s17 ist ein preis-leistungs-kracher im 32-zoll-segment. das gebogene va-panel (1500r krümmung) bietet ein kontrasteiches bild in wqhd-auflösung (2560 x 1440 pixel). mit einer bildwiederholrate von 165 hz, 1 ms reaktionszeit (mprt) sowie unterstützung für adaptive-sync (freesync und g-sync compatible) eignet sich das display bestens für flüssiges gaming. bei den anschlüssen stehen zwei displayport 1.2 ports, ein hdmi 2.0 eingang sowie ein audio-ausgang bereit. der monitor deckt 100 % des srgb-farbraums ab und unterstützt hdr10. flimmerfreie hintergrundbeleuchtung und ein low-blue-light-modus schonen zudem die augen bei längeren sessions. übrigens: heute gibt es 16% cashback bei shoop.",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 35,
+  "found_at": "2026-11-11T18:54:58.330595+01:00"
  }
 ]
