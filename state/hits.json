@@ -1,16 +1,5 @@
 [
  {
-  "guid": "539bb23438745c26384dafda",
-  "title": "ECS Elitegroup LIVA Q3 Plus Mini-PC (Ryzen Embedded V1605B, 8GB DDR4, 128GB eMMC, HDMI, Mini-DP, 3x USB-A, LAN, microSD, 74x52.1x74mm)",
-  "link": "https://www.mydealz.de/deals/ecs-elitegroup-liva-q3-plus-mini-pc-ryzen-embedded-v1605b-8gb-ddr4-128gb-emmc-hdmi-mini-dp-3x-usb-a-microsd-74x521x74mm-2812816",
-  "price": 169.0,
-  "merchant": "Mindfactory",
-  "haystack": "ecs elitegroup liva q3 plus mini-pc (ryzen embedded v1605b, 8gb ddr4, 128gb emmc, hdmi, mini-dp, 3x usb-a, lan, microsd, 74x52.1x74mm) 169€ - mindfactory mindfactory hat gerade einen aus meiner sicht recht interessanten mini-pc im mindstar . für 169€ inkl. versand erhält man das modell liva liva q3 plus 1605 mit einem ryzen embedded v1605b , 8gb ddr4-2400 und 128gb emmc . zum aktuellen zeitpunkt sind zehn exemplare verfügbar . normalerweise werden 207,90€ fällig. der prozessor , welcher noch auf der ersten zen-generation basiert, ist natürlich absolut kein kraftprotz . am ehesten ist er mit dem ryzen 5 2500u vergleichbar , welcher früher in budget-laptops verbaut wurde. vom pcmag gab es damals zum erscheinen trotzdem eine recht anständige bewertung. eta prime hat den mini-würfel vor fünf jahren ebenfalls in einem video getestet: [shortcode id=\"20331116\"/] hier geht es zur produktseite des herstellers. spezifikationen laut geizhals formfaktor mini-pc cpu amd ryzen embedded v1605b, 4c/8t, 2.00-3.60ghz, 4mib+2mib cache, 15w tdp, 12-25w ctdp, codename \"great horned owl\" (zen, gf 14nm) chipsatz soc (system-on-chip) ram 8gb ddr4-2400 (1x 8gb modul, 2 slots gesamt, 1 slot frei, max. 8gb) flash 128gb emmc grafik amd radeon vega 8 graphics (igpu), 8cu/512sp, 1.10ghz, architektur \"gcn 5.0\" anschlüsse hinten 1x mini displayport 1.4, 1x hdmi 2.0, 1x rj-45 (1000base-t), 1x dc-in hohlbuchse (netzanschluss) anschlüsse vorne/seitlich 2x usb-a 3.0 (5gb/s), 1x usb-a 2.0 (480mb/s) wireless wi-fi 5 (wlan 802.11a/b/g/n/ac), bluetooth 4.1 betriebssystem ohne netzteil extern 36w, hohlstecker (13v/2.77a) abmessungen 74x52.1x74mm (bxhxt) gewicht 359g besonderheiten sicherheitsschloss (kensington security slot), vesa-halterung inkludiert (75x75/100x100) farbe schwarz garantie ein jahr",
-  "rule": "Mini-PC (Ryzen oder N100)",
-  "temp": 179,
-  "found_at": "2026-07-17T16:05:38.349946+02:00"
- },
- {
   "guid": "c31b2f219fdf9dda8265c0a8",
   "title": "Lenovo Legion Y27h-30 Gaming Monitor (27\" QHD | 2560x1440 | 180Hz | 400 nits | 0,5ms | IPS | USB 3.2 | USB-C PD 75W | AMD FreeSync)",
   "link": "https://www.mydealz.de/deals/lenovo-legion-y27h-30-gaming-monitor-27-qhd-2560x1440-180hz-400-nits-05ms-ips-usb-32-usb-c-pd-75w-amd-freesync-2813088",
@@ -1648,5 +1637,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 84,
   "found_at": "2026-11-14T21:45:55.141421+01:00"
+ },
+ {
+  "guid": "3357fc528da962dfa13e002f",
+  "title": "Fujitsu Futro S940n Mini-PC – Intel J5005, 4 GB DDR4, 32 GB SSD, lüfterlos, PCIe, Netzteil",
+  "link": "https://www.mydealz.de/deals/fujitsu-futro-s940n-mini-pc-intel-j5005-4-gb-ddr4-32-gb-ssd-lufterlos-pcie-netzteil-2857249",
+  "price": 37.44,
+  "merchant": "eBay",
+  "haystack": "fujitsu futro s940n mini-pc – intel j5005, 4 gb ddr4, 32 gb ssd, lüfterlos, pcie, netzteil 37,44€ - ebay ausstattung prozessor: intel pentium silver j5005. vier kerne und vier threads. basistakt: 1,5 ghz. maximale burst-frequenz: 2,8 ghz. cpu-tdp: 10 watt. grafik: intel uhd graphics 605. arbeitsspeicher: 4 gb ddr4-so-dimm. zwei ram-steckplätze. offiziell bis 16 gb ram. in der praxis berichten nutzer auch von 32 gb mit 2 × 16 gb, allerdings außerhalb der offiziellen herstellerangabe. massenspeicher: 32 gb m.2-sata-ssd. gigabit-lan: realtek rtl8111g. mainboard: fujitsu d3543. uefi-bios. passiv gekühlt und damit ohne lüftergeräusche. externes netzteil im lieferumfang. ohne betriebssystem. anschlüsse 2 × usb 3.0 beziehungsweise usb 3.1 gen 1 vorne. 4 × usb 2.0 hinten. 2 × displayport. 1 × gigabit-lan. audioanschlüsse vorne und hinten. serielle anschlüsse und ps/2 je nach geräteausstattung. interner pcie-2.0-x1-steckplatz. usb-c ist bei diesem modell grundsätzlich optional und bei diesem angebot nicht zugesichert. wichtig: wlan, bluetooth und standfuß sind im angebot nicht erwähnt. falls das für euch entscheidend ist, vorher beim händler nachfragen. im gegensatz zu manchen dell-wyse-angeboten sollte man hier nicht automatisch davon ausgehen, dass funkmodul, antennen oder standfuß mitgeliefert werden. einsatzmöglichkeiten home assistant. pi-hole oder adguard home. docker und docker compose. proxmox mit kleineren vms beziehungsweise lxc-containern. jellyfin oder plex. nextcloud für kleinere installationen. openmediavault und einfache nas-projekte. opnsense, openwrt oder pfsense mit zusätzlicher netzwerkkarte. wireguard, tailscale und weitere vpn-dienste. kleiner linux-arbeitsplatz. raspberry-pi-alternative mit x86-architektur. der j5005 unterstützt intel vt-x, vt-d, aes-ni und quick sync video. damit sind virtualisierung, beschleunelte verschlüsselung und hardware-transcoding grundsätzlich möglich. zu beachten: der prozessor unterstützt kein avx beziehungsweise avx2. software, die diese befehlssätze zwingend benötigt, läuft deshalb nicht. stromverbrauch update : komme selber nur auf ca 8watt idle unter proxmox ein dokumentierter praxistest nennt ungefähr 6,7 watt im leerlauf. das offizielle fujitsu-datenblatt nennt 10 watt für „long idle“. der tatsächliche verbrauch hängt unter anderem von ram, ssd, netzteil, monitoranschluss, pcie-karten und linux-energiespareinstellungen ab. zur groben orientierung bei 24/7-betrieb und einem angenommenen strompreis von 0,35 €/kwh: 6,7 watt: ungefähr 59 kwh beziehungsweise 20,54 € jährlich. 10 watt: ungefähr 88 kwh beziehungsweise 30,66 € jährlich. die 10 watt tdp beziehen sich auf den prozessor und sind nicht automatisch der gesamtverbrauch des vollständigen systems.",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 162,
+  "found_at": "2026-11-16T07:38:32.376964+01:00"
  }
 ]
