@@ -1,27 +1,5 @@
 [
  {
-  "guid": "f2ee7a7288770705d634322e",
-  "title": "BMAX Mini-PC Windows 11 PC Intel N100 16GB 512GB SSD 2*HDMI1*Type-C",
-  "link": "https://www.mydealz.de/deals/bmax-mini-pc-windows-11-pc-intel-n100-16gb-512gb-ssd-2hdmi1type-c-2804901",
-  "price": 207.39,
-  "merchant": "AliExpress",
-  "haystack": "bmax mini-pc windows 11 pc intel n100 16gb 512gb ssd 2*hdmi1*type-c 207,39€ - aliexpress bmax mini-pc windows 11 pc intel n100 16gb 512gb ssd 2*hdmi1*type-c",
-  "rule": "Mini-PC (Ryzen oder N100)",
-  "temp": 128,
-  "found_at": "2026-07-22T19:43:02.891114+02:00"
- },
- {
-  "guid": "a8f8cf737831d40658913555",
-  "title": "SOYO Y5 Plus Mini PC - Win11 Pro, Intel i7-4650U, 8GB & 128GB M.2 SSD, WIFI 5 & BT 4.2, unterstützt zwei 4K-Displays über USB-C",
-  "link": "https://www.mydealz.de/deals/soyo-y5-plus-mini-pc-win11-pro-intel-i7-4650u-8gb-128gb-m2-ssd-wifi-5-bt-42-unterstutzt-zwei-4k-displays-uber-usb-c-2808127",
-  "price": 117.4,
-  "merchant": "AliExpress",
-  "haystack": "soyo y5 plus mini pc - win11 pro, intel i7-4650u, 8gb & 128gb m.2 ssd, wifi 5 & bt 4.2, unterstützt zwei 4k-displays über usb-c 117,40€ - aliexpress der mini-pc ist mit einem intel core i7 der 4. generation (i7-4650u), 8 gb ram, 128 gb ssd und windows 11 pro ausgestattet. außerdem werden zwei 4k-displays, wlan, bluetooth und usb-c unterstützt. betriebssystem: windows 11 pro, vorinstalliert. prozessor (cpu): intel i7 4650u. grafik (gpu): intel uhd graphics 5000. arbeitsspeicher (ram): 8 gb ddr3; speicher (ssd): 128 gb m.2. anschluss: 4xusb 3.0, 2xhdmi, 1xgigabit-lan, 1x audio-klinke, 1x dc-strom. drahtlos: wi-fi 5, bluetooth 4.2. stromversorgung: 100-240v. gewicht: 250g; abmessungen (lxbxh): 11,4cmx10,5cmx3,5cm.",
-  "rule": "Mini-PC (Ryzen oder N100)",
-  "temp": 249,
-  "found_at": "2026-07-22T23:31:25.403660+02:00"
- },
- {
   "guid": "55fe164b415507bd09128b9e",
   "title": "Fujitsu Esprimo G558 Mini-PC (Intel i5 8500T, 16GB RAM, 256GB SSD, W11) (B-Ware)",
   "link": "https://www.mydealz.de/deals/fujitsu-esprimo-g558-mini-pc-intel-i5-8500t-16gb-ram-256gb-ssd-w11-2807751",
@@ -1648,5 +1626,27 @@
   "rule": "27\" WQHD Monitor 144Hz+",
   "temp": 38,
   "found_at": "2026-11-17T23:26:50.003927+01:00"
+ },
+ {
+  "guid": "964b0c2cd7d0f09fe2d1689a",
+  "title": "Samsung Odyssey G5 G55C 27\" Curved Gaming Monitor (2560x1440, 165 Hz, VA, 1000R, HDR10) für 118,06 € bei Amazon",
+  "link": "https://www.mydealz.de/deals/samsung-odyssey-g5-g55c-27-curved-2560x1440-165-hz-va-1000r-hdr10-fur-11806-eur-bei-amazon-bestpreis-2876037",
+  "price": 118.06,
+  "merchant": "Amazon",
+  "haystack": "samsung odyssey g5 g55c 27\" curved gaming monitor (2560x1440, 165 hz, va, 1000r, hdr10) für 118,06 € bei amazon 118,06€ - amazon bei amazon gibt es den samsung odyssey g5 g55c in 27 zoll gerade für 118,06 € mit kostenlosem versand. laut geizhals ist das der neue tiefstpreis, 9 % unter dem median. in den letzten sechs monaten lag er meist zwischen 120 und 140 €. der deal auf einen blick deal-preis: 118,06 € (versand kostenlos, verkauft und versendet von amazon) vergleichspreis: 138,16 € bei cyberport bzw. computeruniverse (131,17 € + 6,99 € versand) versand: kostenlos, lieferung laut amazon dienstag, 24.11. händler: amazon (rückgabe bis 15.01.2027) technische daten 27 zoll (26,9\"), 2560 x 1440 (wqhd), 16:9, 109 ppi va-panel, curved mit 1000r 165 hz, 1 ms (mprt) 300 cd/m² typ., hdr10, kontrast 2.500:1 8 bit, matte oberfläche amd freesync anschlüsse: 1x displayport 1.2, 1x hdmi 2.0 energieeffizienzklasse f einordnung für unter 120 € bekommt man hier einen wqhd-gaming-monitor mit 165 hz von einer bekannten marke. das va-panel bringt einen deutlich besseren kontrast als typische ips-monitore in dieser preisklasse, schwarz wirkt also auch wirklich schwarz. die starke 1000r-krümmung sorgt für ein umschließendes spielgefühl. hdr10 ist bei 300 cd/m² aber eher ein datenblatt-häkchen als echtes hdr. gut zu wissen va-typisch kann es bei schnellen, dunklen szenen leicht schmieren. für shooter-profis ist ein schnelles ips die bessere wahl. 1000r ist eine starke krümmung. daran gewöhnt man sich schnell, für grafik- und büroarbeit mit geraden linien ist sie aber geschmackssache. es gibt auch die variante ls27cg552euxen. gemeint ist hier die ls27cg554euxen, beide sind technisch gleich. für den vergleichspreis habe ich den nächsten händler inklusive versand genommen. mindfactory liegt mit 131,16 € + 8,90 € versand bei 140,06 €, also noch etwas höher. kundenrezensionen",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 194,
+  "found_at": "2026-11-19T21:42:47.669911+01:00"
+ },
+ {
+  "guid": "ff7b586c0eb8018c67a52b24",
+  "title": "HP ProDesk 405 G6 Mini PC - AMD Ryzen 3 3200GE 8GB DDR4 256GB M.2 SSD Win11 +PSU , Refurbished",
+  "link": "https://www.mydealz.de/deals/hp-prodesk-405-g6-mini-pc-amd-ryzen-3-3200ge-8gb-ddr4-256gb-m2-ssd-win11-psu-refurbished-2875919",
+  "price": 139.99,
+  "merchant": "RAM-König",
+  "haystack": "hp prodesk 405 g6 mini pc - amd ryzen 3 3200ge 8gb ddr4 256gb m.2 ssd win11 +psu , refurbished 139,99€ - ram-könig bei der suche nach einem kleinen mini-pc bin ich auf das angebot gestoßen und das ist meiner meinung nach ein guter preis. selber hab ich auch schon bestellt. aktuell noch 23 auf lager. zustand laut beschreibung sehr gut, refurbished. versandkosten brauchte ich keine zahlen. alle weiteren technischen eigenschaften finden sich unten. wlan ist nicht mit drin, kann aber nachgerüstet werden. ich habe mir daher eine intel ax210 modul bei amazon dazu bestellt. eigenschaften: herstellernummer (mpn): 163y3av produkt-reihe prodesk produkt-typ mini pc modell 405 g6 farbe schwarz cpu-hersteller amd anzahl kerne / threads 4 / 4 cpu amd ryzen 3 3200ge taktfrequenz basis / boost 3,3 ghz / 3,8 ghz cpu cache 4 mb cpu tdp 35w grafik-hersteller amd grafik-modell radeon vega 8 grafik-typ integriert arbeitsspeicher summe 8 gb arbeitsspeicher-typ so-dimmddr4 genutzte speicher slots m.2 2280 speicher summe 256 gb nvme m.2 ssd lan-schnittstelle rj45 - 1 gbit lan wireless / wifi / wlan nicht vorhanden (nachrüstbar über m.2) video ein- &amp; ausgänge displayport, hdmi usb-c ports usb-c 3.0 weitere anschlüsse audioanschluss, usb-a 3.0 usb-c eigenschaften powerdelivery betriebssystem windows 11 pro anmerkung 2,5\" caddy nicht enthalten zustand refurbished, sehr gut lieferumfang inklusive netzteil",
+  "rule": "Mini-PC (Ryzen oder N100)",
+  "temp": 217,
+  "found_at": "2026-11-19T21:42:48.319352+01:00"
  }
 ]
