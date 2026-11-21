@@ -1,16 +1,5 @@
 [
  {
-  "guid": "55fe164b415507bd09128b9e",
-  "title": "Fujitsu Esprimo G558 Mini-PC (Intel i5 8500T, 16GB RAM, 256GB SSD, W11) (B-Ware)",
-  "link": "https://www.mydealz.de/deals/fujitsu-esprimo-g558-mini-pc-intel-i5-8500t-16gb-ram-256gb-ssd-w11-2807751",
-  "price": 169.95,
-  "merchant": "eBay",
-  "haystack": "fujitsu esprimo g558 mini-pc (intel i5 8500t, 16gb ram, 256gb ssd, w11) (b-ware) 169,95€ - ebay beim händler m-comp bei ebay gibt es aktuell den fujitsu esprimo g558 mini-pc im angebot. der preis liegt bei 174,95€ abzgl. 5€ gutschein \"perfectebay5e\" = 169,95€ das gerät wird mit vorinstalliertem windows 11 pro und einem zusätzlichen wlan-usb-stick geliefert. technische daten: modell: fujitsu esprimo g558 mini-pc prozessor: intel core i5-8500t (6x 2,10ghz, boost 3,50ghz) arbeitsspeicher: 16gb ddr4 ram festplatte: 256gb ssd grafikkarte: integrierte intel uhd graphics 630 laufwerk: ohne optisches laufwerk betriebssystem: windows 11 pro anschlüsse vorne: 1x usb 3.0, 1x usb 2.0, 1x lautsprecher (klinke) anschlüsse hinten: 1x displayport, 1x hdmi, 1x usb-c, 2x usb 3.0, 2x usb 2.0, 1x gbit lan (rj-45) lieferumfang: mini-pc, netzteil, wlan usb-stick der fujitsu esprimo g558 lässt sich problemlos an einer usb-c-dockingstation betreiben. der mini-pc unterstützt usb-c inklusive displayport (alt-mode) und sogar stromversorgung (selbst getestet).",
-  "rule": "Mini-PC (Ryzen oder N100)",
-  "temp": 247,
-  "found_at": "2026-07-22T23:31:26.334949+02:00"
- },
- {
   "guid": "45c24f3aba1952bb891be810",
   "title": "Apple Mac Mini A1993 - Intel i5 8500b 8GB RAM aufrüstbar, 256GB SSD Wifi 4x USB-C Thunderbolt - refurbished Mini PC als DiY MacOS Server",
   "link": "https://www.mydealz.de/deals/apple-mac-mini-2018-mac-os-intel-i5-8500-8gb-ram-aufrustbar-256gb-ssd-wifi-4x-usb-c-thunderbold-hdmi-20-refurbished-mini-pc-2785081",
@@ -1648,5 +1637,16 @@
   "rule": "Mini-PC (Ryzen oder N100)",
   "temp": 217,
   "found_at": "2026-11-19T21:42:48.319352+01:00"
+ },
+ {
+  "guid": "d7afd74777ff5fa465ed6c1f",
+  "title": "AOC CQ27G4Z2 Gaming-Monitor – 27 Zoll, WQHD, 260 Hz, Curved für 139 € inkl. Versand",
+  "link": "https://www.mydealz.de/deals/aoc-cq27g4z2-gaming-monitor-27-zoll-wqhd-260-hz-curved-fur-139-eur-inkl-versand-2877866",
+  "price": 139.0,
+  "merchant": "Galaxus",
+  "haystack": "aoc cq27g4z2 gaming-monitor – 27 zoll, wqhd, 260 hz, curved für 139 € inkl. versand 139€ - galaxus falls ihr noch an einem full-hd-monitor sitzt und beim zocken gern mehr platz hättet: galaxus hat den gebogenen aoc cq27g4z2 gerade für 139 € geliefert. bei amazon kostet das gleiche modell 169,90 € inklusive versand. damit spart ihr 30,90 € bzw. 18,2 %. der 27-zöller hat ein fast-va-panel mit 2.560 × 1.440 pixeln und schafft über displayport bis zu 260 hz. die beworbenen 400 hz gibt es im hd-modus. der standfuß lässt sich in der höhe verstellen. der frühere cyberport-deal lag bei 149,90 € zur abholung oder 156,89 € mit versand. bei galaxus waren beim check mehr als zehn stück auf lager. amazon · preisvergleich",
+  "rule": "27\" WQHD Monitor 144Hz+",
+  "temp": 323,
+  "found_at": "2026-11-21T13:43:30.963310+01:00"
  }
 ]
